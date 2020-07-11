@@ -1,234 +1,231 @@
-# Vega Bridge
+# Vega
+## All events
+[Asset_Blacklisted](#asset_blacklisted-event), [Asset_Deposit_Minimum_Set](#asset_deposit_minimum_set-event), [Asset_Deposited](#asset_deposited-event), [Asset_Whitelisted](#asset_whitelisted-event), [Asset_Withdrawn](#asset_withdrawn-event), [Multisig_Control_Set](#multisig_control_set-event), [OwnershipTransferred](#ownershiptransferred-event)
 
-Ropsten (Etherscan): [0x3EA59801698c6820328597F26d29fC3EaAa17AcA](https://ropsten.etherscan.io/address/0x3EA59801698c6820328597F26d29fC3EaAa17AcA)
+## All functions
+[isOwner](#isowner-function), [owner](#owner-function), [renounceOwnership](#renounceownership-function), [transferOwnership](#transferownership-function), [whitelist_asset_admin](#whitelist_asset_admin-function), [blacklist_asset_admin](#blacklist_asset_admin-function), [get_vega_id](#get_vega_id-function), [get_asset_source_and_asset_id](#get_asset_source_and_asset_id-function), [whitelist_asset](#whitelist_asset-function), [blacklist_asset](#blacklist_asset-function), [set_deposit_minimum](#set_deposit_minimum-function), [withdraw_asset](#withdraw_asset-function), [deposit_asset](#deposit_asset-function), [set_multisig_control](#set_multisig_control-function), [is_asset_whitelisted](#is_asset_whitelisted-function), [get_deposit_minimum](#get_deposit_minimum-function), [get_multisig_control_address](#get_multisig_control_address-function)
+
 
 ## Events
-[Asset_Blacklisted](#Asset_Blacklisted), [Asset_Deposit_Minimum_Set](#Asset_Deposit_Minimum_Set), [Asset_Deposited](#Asset_Deposited), [Asset_Whitelisted](#Asset_Whitelisted), [Asset_Withdrawn](#Asset_Withdrawn), [Multisig_Control_Set](#Multisig_Control_Set), [OwnershipTransferred](#OwnershipTransferred)
+### <a id="asset_blacklisted-event">Asset_Blacklisted</a>
+|Input name|Type|Indexed|
+|----|----|:----:|
+|asset_source|[address](https://solidity.readthedocs.io/en/v0.6.10/types.html#address)|  ☑️  |
+|asset_id|[uint256](https://solidity.readthedocs.io/en/v0.6.10/types.html#integers)|  ☑️  |
+|nonce|[uint256](https://solidity.readthedocs.io/en/v0.6.10/types.html#integers)|  🔘  |
+
+
+### <a id="asset_deposit_minimum_set-event">Asset_Deposit_Minimum_Set</a>
+|Input name|Type|Indexed|
+|----|----|:----:|
+|asset_source|[address](https://solidity.readthedocs.io/en/v0.6.10/types.html#address)|  ☑️  |
+|asset_id|[uint256](https://solidity.readthedocs.io/en/v0.6.10/types.html#integers)|  ☑️  |
+|new_minimum|[uint256](https://solidity.readthedocs.io/en/v0.6.10/types.html#integers)|  🔘  |
+|nonce|[uint256](https://solidity.readthedocs.io/en/v0.6.10/types.html#integers)|  🔘  |
+
+
+### <a id="asset_deposited-event">Asset_Deposited</a>
+|Input name|Type|Indexed|
+|----|----|:----:|
+|user_address|[address](https://solidity.readthedocs.io/en/v0.6.10/types.html#address)|  ☑️  |
+|asset_source|[address](https://solidity.readthedocs.io/en/v0.6.10/types.html#address)|  ☑️  |
+|asset_id|[uint256](https://solidity.readthedocs.io/en/v0.6.10/types.html#integers)|  ☑️  |
+|amount|[uint256](https://solidity.readthedocs.io/en/v0.6.10/types.html#integers)|  🔘  |
+|vega_public_key|[bytes32](https://solidity.readthedocs.io/en/v0.6.10/types.html#fixed-size-byte-arrays)|  🔘  |
+
+
+### <a id="asset_whitelisted-event">Asset_Whitelisted</a>
+|Input name|Type|Indexed|
+|----|----|:----:|
+|asset_source|[address](https://solidity.readthedocs.io/en/v0.6.10/types.html#address)|  ☑️  |
+|asset_id|[uint256](https://solidity.readthedocs.io/en/v0.6.10/types.html#integers)|  ☑️  |
+|vega_id|[uint256](https://solidity.readthedocs.io/en/v0.6.10/types.html#integers)|  🔘  |
+
+
+### <a id="asset_withdrawn-event">Asset_Withdrawn</a>
+|Input name|Type|Indexed|
+|----|----|:----:|
+|user_address|[address](https://solidity.readthedocs.io/en/v0.6.10/types.html#address)|  ☑️  |
+|asset_source|[address](https://solidity.readthedocs.io/en/v0.6.10/types.html#address)|  ☑️  |
+|asset_id|[uint256](https://solidity.readthedocs.io/en/v0.6.10/types.html#integers)|  ☑️  |
+|amount|[uint256](https://solidity.readthedocs.io/en/v0.6.10/types.html#integers)|  🔘  |
+|nonce|[uint256](https://solidity.readthedocs.io/en/v0.6.10/types.html#integers)|  🔘  |
+
+
+### <a id="multisig_control_set-event">Multisig_Control_Set</a>
+|Input name|Type|Indexed|
+|----|----|:----:|
+|multisig_control_source|[address](https://solidity.readthedocs.io/en/v0.6.10/types.html#address)|  ☑️  |
+
+
+### <a id="ownershiptransferred-event">OwnershipTransferred</a>
+|Input name|Type|Indexed|
+|----|----|:----:|
+|previousOwner|[address](https://solidity.readthedocs.io/en/v0.6.10/types.html#address)|  ☑️  |
+|newOwner|[address](https://solidity.readthedocs.io/en/v0.6.10/types.html#address)|  ☑️  |
+
+
 
 
 ## Functions
-[isOwner](#isOwner), [owner](#owner), [renounceOwnership](#renounceOwnership), [transferOwnership](#transferOwnership), [whitelist_asset_admin](#whitelist_asset_admin), [blacklist_asset_admin](#blacklist_asset_admin), [get_vega_id](#get_vega_id), [get_asset_source_and_asset_id](#get_asset_source_and_asset_id), [whitelist_asset](#whitelist_asset), [blacklist_asset](#blacklist_asset), [set_deposit_minimum](#set_deposit_minimum), [withdraw_asset](#withdraw_asset), [deposit_asset](#deposit_asset), [set_multisig_control](#set_multisig_control), [is_asset_whitelisted](#is_asset_whitelisted), [get_deposit_minimum](#get_deposit_minimum), [get_multisig_control_address](#get_multisig_control_address)
-
-
-# Events
-## Asset_Blacklisted
-|Input name|Type|
-|----|----|
-|asset_source|[address](https://solidity.readthedocs.io/en/v0.5.3/types.html#address)|
-|asset_id|[uint256](https://solidity.readthedocs.io/en/v0.5.3/types.html#integers)|
-|nonce|[uint256](https://solidity.readthedocs.io/en/v0.5.3/types.html#integers)|
-
-
-## Asset_Deposit_Minimum_Set
-|Input name|Type|
-|----|----|
-|asset_source|[address](https://solidity.readthedocs.io/en/v0.5.3/types.html#address)|
-|asset_id|[uint256](https://solidity.readthedocs.io/en/v0.5.3/types.html#integers)|
-|new_minimum|[uint256](https://solidity.readthedocs.io/en/v0.5.3/types.html#integers)|
-|nonce|[uint256](https://solidity.readthedocs.io/en/v0.5.3/types.html#integers)|
-
-
-## Asset_Deposited
-|Input name|Type|
-|----|----|
-|user_address|[address](https://solidity.readthedocs.io/en/v0.5.3/types.html#address)|
-|asset_source|[address](https://solidity.readthedocs.io/en/v0.5.3/types.html#address)|
-|asset_id|[uint256](https://solidity.readthedocs.io/en/v0.5.3/types.html#integers)|
-|amount|[uint256](https://solidity.readthedocs.io/en/v0.5.3/types.html#integers)|
-|vega_public_key|[bytes32](https://solidity.readthedocs.io/en/v0.5.3/types.html#fixed-size-byte-arrays)|
-
-
-## Asset_Whitelisted
-|Input name|Type|
-|----|----|
-|asset_source|[address](https://solidity.readthedocs.io/en/v0.5.3/types.html#address)|
-|asset_id|[uint256](https://solidity.readthedocs.io/en/v0.5.3/types.html#integers)|
-|vega_id|[uint256](https://solidity.readthedocs.io/en/v0.5.3/types.html#integers)|
-
-
-## Asset_Withdrawn
-|Input name|Type|
-|----|----|
-|user_address|[address](https://solidity.readthedocs.io/en/v0.5.3/types.html#address)|
-|asset_source|[address](https://solidity.readthedocs.io/en/v0.5.3/types.html#address)|
-|asset_id|[uint256](https://solidity.readthedocs.io/en/v0.5.3/types.html#integers)|
-|amount|[uint256](https://solidity.readthedocs.io/en/v0.5.3/types.html#integers)|
-|nonce|[uint256](https://solidity.readthedocs.io/en/v0.5.3/types.html#integers)|
-
-
-## Multisig_Control_Set
-|Input name|Type|
-|----|----|
-|multisig_control_source|[address](https://solidity.readthedocs.io/en/v0.5.3/types.html#address)|
-
-
-## OwnershipTransferred
-|Input name|Type|
-|----|----|
-|previousOwner|[address](https://solidity.readthedocs.io/en/v0.5.3/types.html#address)|
-|newOwner|[address](https://solidity.readthedocs.io/en/v0.5.3/types.html#address)|
-
-
-
-
-# Functions
-## isOwner
+### <a id="isowner-function">isOwner</a>
 📌 Constant, 👁 View
 
 
 
-**Returns** [bool](https://solidity.readthedocs.io/en/v0.5.3/types.html#booleans)
-## owner
+**Returns** [bool](https://solidity.readthedocs.io/en/v0.6.10/types.html#booleans)
+### <a id="owner-function">owner</a>
 📌 Constant, 👁 View
 
 
 
-**Returns** [address](https://solidity.readthedocs.io/en/v0.5.3/types.html#address)
-## renounceOwnership
+**Returns** [address](https://solidity.readthedocs.io/en/v0.6.10/types.html#address)
+### <a id="renounceownership-function">renounceOwnership</a>
 🙅 Non-payable
 
-## transferOwnership
-🙅 Non-payable
-
-|Input name|Type|
-|----|----|
-|newOwner|[address](https://solidity.readthedocs.io/en/v0.5.3/types.html#address)|
-
-
-## whitelist_asset_admin
+### <a id="transferownership-function">transferOwnership</a>
 🙅 Non-payable
 
 |Input name|Type|
 |----|----|
-|asset_source|[address](https://solidity.readthedocs.io/en/v0.5.3/types.html#address)|
-|asset_id|[uint256](https://solidity.readthedocs.io/en/v0.5.3/types.html#integers)|
+|newOwner|[address](https://solidity.readthedocs.io/en/v0.6.10/types.html#address)|
 
 
-## blacklist_asset_admin
+### <a id="whitelist_asset_admin-function">whitelist_asset_admin</a>
 🙅 Non-payable
 
 |Input name|Type|
 |----|----|
-|asset_source|[address](https://solidity.readthedocs.io/en/v0.5.3/types.html#address)|
-|asset_id|[uint256](https://solidity.readthedocs.io/en/v0.5.3/types.html#integers)|
+|asset_source|[address](https://solidity.readthedocs.io/en/v0.6.10/types.html#address)|
+|asset_id|[uint256](https://solidity.readthedocs.io/en/v0.6.10/types.html#integers)|
 
 
-## get_vega_id
+### <a id="blacklist_asset_admin-function">blacklist_asset_admin</a>
+🙅 Non-payable
+
+|Input name|Type|
+|----|----|
+|asset_source|[address](https://solidity.readthedocs.io/en/v0.6.10/types.html#address)|
+|asset_id|[uint256](https://solidity.readthedocs.io/en/v0.6.10/types.html#integers)|
+
+
+### <a id="get_vega_id-function">get_vega_id</a>
 📌 Constant, 👁 View
 
 |Input name|Type|
 |----|----|
-|asset_source|[address](https://solidity.readthedocs.io/en/v0.5.3/types.html#address)|
-|asset_id|[uint256](https://solidity.readthedocs.io/en/v0.5.3/types.html#integers)|
+|asset_source|[address](https://solidity.readthedocs.io/en/v0.6.10/types.html#address)|
+|asset_id|[uint256](https://solidity.readthedocs.io/en/v0.6.10/types.html#integers)|
 
 
 
 
-**Returns** [uint256](https://solidity.readthedocs.io/en/v0.5.3/types.html#integers)
-## get_asset_source_and_asset_id
+**Returns** [uint256](https://solidity.readthedocs.io/en/v0.6.10/types.html#integers)
+### <a id="get_asset_source_and_asset_id-function">get_asset_source_and_asset_id</a>
 📌 Constant, 👁 View
 
 |Input name|Type|
 |----|----|
-|vega_id|[uint256](https://solidity.readthedocs.io/en/v0.5.3/types.html#integers)|
+|vega_id|[uint256](https://solidity.readthedocs.io/en/v0.6.10/types.html#integers)|
 
 
 
 
-**Returns** [address](https://solidity.readthedocs.io/en/v0.5.3/types.html#address)
-**Returns** [uint256](https://solidity.readthedocs.io/en/v0.5.3/types.html#integers)
-## whitelist_asset
+**Returns** [address](https://solidity.readthedocs.io/en/v0.6.10/types.html#address)
+**Returns** [uint256](https://solidity.readthedocs.io/en/v0.6.10/types.html#integers)
+### <a id="whitelist_asset-function">whitelist_asset</a>
 🙅 Non-payable
 
 |Input name|Type|
 |----|----|
-|asset_source|[address](https://solidity.readthedocs.io/en/v0.5.3/types.html#address)|
-|asset_id|[uint256](https://solidity.readthedocs.io/en/v0.5.3/types.html#integers)|
-|vega_id|[uint256](https://solidity.readthedocs.io/en/v0.5.3/types.html#integers)|
-|signatures|[bytes](https://solidity.readthedocs.io/en/v0.5.3/types.html#fixed-size-byte-arrays)|
+|asset_source|[address](https://solidity.readthedocs.io/en/v0.6.10/types.html#address)|
+|asset_id|[uint256](https://solidity.readthedocs.io/en/v0.6.10/types.html#integers)|
+|vega_id|[uint256](https://solidity.readthedocs.io/en/v0.6.10/types.html#integers)|
+|signatures|[bytes](https://solidity.readthedocs.io/en/v0.6.10/types.html#fixed-size-byte-arrays)|
 
 
-## blacklist_asset
+### <a id="blacklist_asset-function">blacklist_asset</a>
 🙅 Non-payable
 
 |Input name|Type|
 |----|----|
-|asset_source|[address](https://solidity.readthedocs.io/en/v0.5.3/types.html#address)|
-|asset_id|[uint256](https://solidity.readthedocs.io/en/v0.5.3/types.html#integers)|
-|nonce|[uint256](https://solidity.readthedocs.io/en/v0.5.3/types.html#integers)|
-|signatures|[bytes](https://solidity.readthedocs.io/en/v0.5.3/types.html#fixed-size-byte-arrays)|
+|asset_source|[address](https://solidity.readthedocs.io/en/v0.6.10/types.html#address)|
+|asset_id|[uint256](https://solidity.readthedocs.io/en/v0.6.10/types.html#integers)|
+|nonce|[uint256](https://solidity.readthedocs.io/en/v0.6.10/types.html#integers)|
+|signatures|[bytes](https://solidity.readthedocs.io/en/v0.6.10/types.html#fixed-size-byte-arrays)|
 
 
-## set_deposit_minimum
+### <a id="set_deposit_minimum-function">set_deposit_minimum</a>
 🙅 Non-payable
 
 |Input name|Type|
 |----|----|
-|asset_source|[address](https://solidity.readthedocs.io/en/v0.5.3/types.html#address)|
-|asset_id|[uint256](https://solidity.readthedocs.io/en/v0.5.3/types.html#integers)|
-|nonce|[uint256](https://solidity.readthedocs.io/en/v0.5.3/types.html#integers)|
-|minimum_amount|[uint256](https://solidity.readthedocs.io/en/v0.5.3/types.html#integers)|
-|signatures|[bytes](https://solidity.readthedocs.io/en/v0.5.3/types.html#fixed-size-byte-arrays)|
+|asset_source|[address](https://solidity.readthedocs.io/en/v0.6.10/types.html#address)|
+|asset_id|[uint256](https://solidity.readthedocs.io/en/v0.6.10/types.html#integers)|
+|nonce|[uint256](https://solidity.readthedocs.io/en/v0.6.10/types.html#integers)|
+|minimum_amount|[uint256](https://solidity.readthedocs.io/en/v0.6.10/types.html#integers)|
+|signatures|[bytes](https://solidity.readthedocs.io/en/v0.6.10/types.html#fixed-size-byte-arrays)|
 
 
-## withdraw_asset
+### <a id="withdraw_asset-function">withdraw_asset</a>
 🙅 Non-payable
 
 |Input name|Type|
 |----|----|
-|asset_source|[address](https://solidity.readthedocs.io/en/v0.5.3/types.html#address)|
-|asset_id|[uint256](https://solidity.readthedocs.io/en/v0.5.3/types.html#integers)|
-|amount|[uint256](https://solidity.readthedocs.io/en/v0.5.3/types.html#integers)|
-|nonce|[uint256](https://solidity.readthedocs.io/en/v0.5.3/types.html#integers)|
-|signatures|[bytes](https://solidity.readthedocs.io/en/v0.5.3/types.html#fixed-size-byte-arrays)|
+|asset_source|[address](https://solidity.readthedocs.io/en/v0.6.10/types.html#address)|
+|asset_id|[uint256](https://solidity.readthedocs.io/en/v0.6.10/types.html#integers)|
+|amount|[uint256](https://solidity.readthedocs.io/en/v0.6.10/types.html#integers)|
+|nonce|[uint256](https://solidity.readthedocs.io/en/v0.6.10/types.html#integers)|
+|signatures|[bytes](https://solidity.readthedocs.io/en/v0.6.10/types.html#fixed-size-byte-arrays)|
 
 
-## deposit_asset
+### <a id="deposit_asset-function">deposit_asset</a>
 🙅 Non-payable
 
 |Input name|Type|
 |----|----|
-|asset_source|[address](https://solidity.readthedocs.io/en/v0.5.3/types.html#address)|
-|asset_id|[uint256](https://solidity.readthedocs.io/en/v0.5.3/types.html#integers)|
-|amount|[uint256](https://solidity.readthedocs.io/en/v0.5.3/types.html#integers)|
-|vega_public_key|[bytes32](https://solidity.readthedocs.io/en/v0.5.3/types.html#fixed-size-byte-arrays)|
+|asset_source|[address](https://solidity.readthedocs.io/en/v0.6.10/types.html#address)|
+|asset_id|[uint256](https://solidity.readthedocs.io/en/v0.6.10/types.html#integers)|
+|amount|[uint256](https://solidity.readthedocs.io/en/v0.6.10/types.html#integers)|
+|vega_public_key|[bytes32](https://solidity.readthedocs.io/en/v0.6.10/types.html#fixed-size-byte-arrays)|
 
 
-## set_multisig_control
+### <a id="set_multisig_control-function">set_multisig_control</a>
 🙅 Non-payable
 
 |Input name|Type|
 |----|----|
-|new_multisig_contract_address|[address](https://solidity.readthedocs.io/en/v0.5.3/types.html#address)|
+|new_multisig_contract_address|[address](https://solidity.readthedocs.io/en/v0.6.10/types.html#address)|
 
 
-## is_asset_whitelisted
+### <a id="is_asset_whitelisted-function">is_asset_whitelisted</a>
 📌 Constant, 👁 View
 
 |Input name|Type|
 |----|----|
-|asset_source|[address](https://solidity.readthedocs.io/en/v0.5.3/types.html#address)|
-|asset_id|[uint256](https://solidity.readthedocs.io/en/v0.5.3/types.html#integers)|
+|asset_source|[address](https://solidity.readthedocs.io/en/v0.6.10/types.html#address)|
+|asset_id|[uint256](https://solidity.readthedocs.io/en/v0.6.10/types.html#integers)|
 
 
 
 
-**Returns** [bool](https://solidity.readthedocs.io/en/v0.5.3/types.html#booleans)
-## get_deposit_minimum
+**Returns** [bool](https://solidity.readthedocs.io/en/v0.6.10/types.html#booleans)
+### <a id="get_deposit_minimum-function">get_deposit_minimum</a>
 📌 Constant, 👁 View
 
 |Input name|Type|
 |----|----|
-|asset_source|[address](https://solidity.readthedocs.io/en/v0.5.3/types.html#address)|
-|asset_id|[uint256](https://solidity.readthedocs.io/en/v0.5.3/types.html#integers)|
+|asset_source|[address](https://solidity.readthedocs.io/en/v0.6.10/types.html#address)|
+|asset_id|[uint256](https://solidity.readthedocs.io/en/v0.6.10/types.html#integers)|
 
 
 
 
-**Returns** [uint256](https://solidity.readthedocs.io/en/v0.5.3/types.html#integers)
-## get_multisig_control_address
+**Returns** [uint256](https://solidity.readthedocs.io/en/v0.6.10/types.html#integers)
+### <a id="get_multisig_control_address-function">get_multisig_control_address</a>
 📌 Constant, 👁 View
 
 
 
-**Returns** [address](https://solidity.readthedocs.io/en/v0.5.3/types.html#address)
+**Returns** [address](https://solidity.readthedocs.io/en/v0.6.10/types.html#address)
+
