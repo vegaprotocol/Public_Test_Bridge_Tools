@@ -4,9 +4,9 @@ Tools for interacting with the bridge smart contracts on Ropsten Testnet
 
 VUSD Test Token (Ropsten): [0x955C6789A7fbee203B4bE0F01428E769308813f2](https://ropsten.etherscan.io/address/0x955C6789A7fbee203B4bE0F01428E769308813f2)
 
-Multisig Control (Ropsten): [0xa956B5c58B4Ac8Dd1D44Ade3e8972A16e9C917E4](https://ropsten.etherscan.io/address/0xa956b5c58b4ac8dd1d44ade3e8972a16e9c917e4)
+Multisig Control (Ropsten): [0x7b9083b496ccb6C303F79A5249d91A3696556e33](https://ropsten.etherscan.io/address/0x7b9083b496ccb6C303F79A5249d91A3696556e33)
 
-Vega ERC20 Bridge (Ropsten): [0x3EA59801698c6820328597F26d29fC3EaAa17AcA](https://ropsten.etherscan.io/address/0x3EA59801698c6820328597F26d29fC3EaAa17AcA)
+Vega ERC20 Bridge (Ropsten): [0xf6C9d3e937fb2dA4995272C1aC3f3D466B7c23fC](https://ropsten.etherscan.io/address/0xf6C9d3e937fb2dA4995272C1aC3f3D466B7c23fC)
 
 ## Ropsten Ether Faucet
 In order to run smart contract functions on Ethereum, you must have Ethers to pay gas. On the Ropsten testnet there are a number of Ether faucets to get Ether to test with. 
