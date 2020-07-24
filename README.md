@@ -8,13 +8,14 @@ Tools for interacting with the bridge smart contracts on Ropsten Testnet
 
 ## Ropsten Ether Faucet
 In order to run smart contract functions on Ethereum, you must have Ethers to pay gas. On the Ropsten testnet there are a number of Ether faucets to get Ether to test with. 
-To get test Ether, you've got a few options:
+To get test Ether, you've got a few options.
 
-Pick 1:
-* See VUSD faucet instructions below
-* run: `curl -X POST  -H "Content-Type: application/json" -d '{"toWhom":"YOUR_ETHEREUM_ADDRESS_GOES_HERE"}' https://ropsten.faucet.b9lab.com/tap`
-* Or, if you want to go "hardcore decentralized mode", there exists an IPFS-deployed faucet: https://blog.b9lab.com/when-we-first-built-our-faucet-we-deployed-it-on-the-morden-testnet-70bfbf4e317e
+**NOTE**: If you don't have a wallet, or need a wallet for testing, it's highly suggested for you to install the MetaMask plugin for Chrome or Firefox. Just install the plugin and follow the instructions on-screen to create your wallet.
 
+See VUSD faucet instructions below
+    - run from command line: `curl -s -H "Content-Type: application/json" -d '{"toWhom":"YOUR_ETHEREUM_ADDRESS_GOES_HERE"}' -X POST https://ropsten.faucet.b9lab.com/tap`
+        - **NOTE**: Make sure that the quotes are all correct, the copy/paste might give you some wrong quote that will make the command fail. 
+    - Or, if you want to go "hardcore decentralized mode", there exists an IPFS-deployed faucet: https://blog.b9lab.com/when-we-first-built-our-faucet-we-deployed-it-on-the-morden-testnet-70bfbf4e317e
 
 ## VUSD Token Faucet:
 To deposit VUSD into Vega via the ERC20 bridge, you must first have VUSD. 
