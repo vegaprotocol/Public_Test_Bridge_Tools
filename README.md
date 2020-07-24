@@ -44,11 +44,16 @@ Luckily, there's a faucet for that too: https://github.com/vegaprotocol/VUSD_Tes
 6. In the ABI/JSON interface, copy and paste the content of the JSON file available here https://github.com/vegaprotocol/Public_Test_Bridge_Tools/blob/bridge-docs/VUSD/VUSD_TEST_ABI.json
 7. Click "Continue"
 8. Click "Select an Item" and in the dropdown list select "Faucet"
-<p align="center"><img width="378" alt="Dropdown list" src="https://user-images.githubusercontent.com/66724202/88392705-62959900-cdb4-11ea-9958-de1af0f9520e.png" class="center"></p>
+
+<p align="center"><img width="478" alt="Dropdown list" src="https://user-images.githubusercontent.com/66724202/88392705-62959900-cdb4-11ea-9958-de1af0f9520e.png" class="center"></p>
+
 9. Leave ETH field with 0 and just click "Write" 
 10. A window from MetaMax will popup and you just need to select "Continue" (see image below)
+
 <p align="center"><img width="238" alt="MetaMax popup" src="https://user-images.githubusercontent.com/66724202/88390894-0da45380-cdb1-11ea-9221-056afab68a1b.png" class="center"></p>
+
 11. Wait some time until you get the notification that the transaction has been completed, and if you click on the MetaMax plugin, and select "Assets" you should be able to see the VUSD asset like in the image below
+
 <p align="center"><img width="238" alt="MetaMax Assets" src="https://user-images.githubusercontent.com/66724202/88391027-417f7900-cdb1-11ea-831d-b1a79fca570e.png" class="center"></p>
 
 ## Depositing VUSD into ERC20 Bridge
