@@ -10,7 +10,8 @@ In order to run smart contract functions on Ethereum, you must have Ethers to pa
 To get test Ether, you've got a few options.
 
 **NOTE**: If you don't have a wallet, or need a wallet for testing, it's highly suggested for you to install the MetaMask plugin for Chrome or Firefox. Just install the plugin and follow the instructions on-screen to create your wallet. Once installed, click on the Network at the top of the plugin screen and select "**Ropsten Test Network**" (see image below)
-<img width="357" alt="Screenshot 2020-07-24 at 13 04 39" src="https://user-images.githubusercontent.com/66724202/88389898-4fcc9580-cdaf-11ea-9b1f-7315ca45d63f.png">
+
+<img width="238" alt="Select Ropsten Test Network screen" src="https://user-images.githubusercontent.com/66724202/88389898-4fcc9580-cdaf-11ea-9b1f-7315ca45d63f.png" class="center">
 
 See VUSD faucet instructions below
     
@@ -43,9 +44,9 @@ If you want to follow a quick how-to to add VUSD to your wallet:
 8. In "Select an Item" select "Faucet"
 9. Leave ETH field with 0 and just click "Write" 
 10. A window from MetaMax will popup and you just need to select "Continue" (see image below)
-<img width="357" alt="Screenshot 2020-07-24 at 13 04 39" src="https://user-images.githubusercontent.com/66724202/88390894-0da45380-cdb1-11ea-9221-056afab68a1b.png">
+<img width="238" alt="Screenshot 2020-07-24 at 13 04 39" src="https://user-images.githubusercontent.com/66724202/88390894-0da45380-cdb1-11ea-9221-056afab68a1b.png" class="center">
 11. Wait some time until you get the notification that the transaction has been completed, and if you click on the MetaMax plugin, and select "Assets" you should be able to see the VUSD asset like in the image below
-<img width="357" alt="Screenshot 2020-07-24 at 13 04 39" src="https://user-images.githubusercontent.com/66724202/88391027-417f7900-cdb1-11ea-831d-b1a79fca570e.png">
+<img width="238" alt="Screenshot 2020-07-24 at 13 04 39" src="https://user-images.githubusercontent.com/66724202/88391027-417f7900-cdb1-11ea-831d-b1a79fca570e.png" class="center">
 
 
 ## Depositing VUSD into ERC20 Bridge
