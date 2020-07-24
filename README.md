@@ -6,7 +6,7 @@ Tools for interacting with the bridge smart contracts on Ropsten Testnet
 * Vega ERC20 Bridge (Ropsten): [0xf6C9d3e937fb2dA4995272C1aC3f3D466B7c23fC](https://ropsten.etherscan.io/address/0xf6C9d3e937fb2dA4995272C1aC3f3D466B7c23fC)
 
 
-**NOTE**: It's highly suggested for you to install the MetaMask plugin for Chrome or Firefox. Just install the plugin and follow the instructions on-screen to create your wallet. Once installed, click on the Network at the top of the plugin screen and select "**Ropsten Test Network**" (see image below)
+**NOTE**: It's highly suggested for you to install the MetaMask plugin for [Chrome](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en) or [Firefox](https://addons.mozilla.org/en-GB/firefox/addon/ether-metamask/). Just install the plugin and follow the instructions on-screen to create your wallet. Once installed, click on the Network at the top of the plugin screen and select "**Ropsten Test Network**" (see image below)
 
 <p align="center"><img width="238" alt="Select Ropsten Test Network screen" src="https://user-images.githubusercontent.com/66724202/88389898-4fcc9580-cdaf-11ea-9b1f-7315ca45d63f.png" class="center"></p>
 
@@ -48,13 +48,13 @@ Luckily, there's a faucet for that too: https://github.com/vegaprotocol/VUSD_Tes
 <p align="center"><img width="478" alt="Dropdown list" src="https://user-images.githubusercontent.com/66724202/88392705-62959900-cdb4-11ea-9958-de1af0f9520e.png" class="center"></p>
 
 9. Leave ETH field with 0 and just click "Write" 
-10. A window from MetaMax will popup and you just need to select "Continue" (see image below)
+10. A window from MetaMask will popup and you just need to select "Continue" (see image below)
 
-<p align="center"><img width="238" alt="MetaMax popup" src="https://user-images.githubusercontent.com/66724202/88390894-0da45380-cdb1-11ea-9221-056afab68a1b.png" class="center"></p>
+<p align="center"><img width="238" alt="MetaMask popup" src="https://user-images.githubusercontent.com/66724202/88390894-0da45380-cdb1-11ea-9221-056afab68a1b.png" class="center"></p>
 
-11. Wait some time until you get the notification that the transaction has been completed, and if you click on the MetaMax plugin, and select "Assets" you should be able to see the VUSD asset like in the image below
+11. Wait some time until you get the notification that the transaction has been completed, and if you click on the MetaMask plugin, and select "Assets" you should be able to see the VUSD asset like in the image below
 
-<p align="center"><img width="238" alt="MetaMax Assets" src="https://user-images.githubusercontent.com/66724202/88391027-417f7900-cdb1-11ea-831d-b1a79fca570e.png" class="center"></p>
+<p align="center"><img width="238" alt="MetaMask Assets" src="https://user-images.githubusercontent.com/66724202/88391027-417f7900-cdb1-11ea-831d-b1a79fca570e.png" class="center"></p>
 
 ## Depositing VUSD into ERC20 Bridge
 
@@ -77,7 +77,7 @@ First of all you need to obtain VUSD from the VUSD faucet using the instructions
 9. In the "Spender (address)" field copy/paste the Vega ERC20 Bridge (Ropsten) address (`0xf6C9d3e937fb2dA4995272C1aC3f3D466B7c23fC`)
 10. In the "Value (uint256)" field write in the number of tokens you would like to deposit followed by 18 zeros (000000000000000000) (example: if you want to limit to 1000 tokens you need to write: `1000000000000000000000`)
 11. leave the ETH at 0 (DON'T TOUCH IT) and click "Write"
-12. MetaMax will request to confirm that you allow MEW to spend your VUSD, click "Confirm" (see image below)
+12. MetaMask will request to confirm that you allow MEW to spend your VUSD, click "Confirm" (see image below)
 
 <p align="center"><img width="238" alt="Here select CONFIRM" src="https://user-images.githubusercontent.com/66724202/88394400-4ba47600-cdb7-11ea-8e66-e2df46e87c61.png"></p>
 
@@ -105,7 +105,7 @@ First of all you need to obtain VUSD from the VUSD faucet using the instructions
 <p align="center"><img width="238" alt="Click on Hosted Wallet" src="https://user-images.githubusercontent.com/66724202/88395723-6c6dcb00-cdb9-11ea-9e53-bbd831d837f0.png"> <img width="238" alt="Click on View" src="https://user-images.githubusercontent.com/66724202/88395750-742d6f80-cdb9-11ea-8cc6-5f8c976d4d93.png"> <img width="238" alt="Click copy" src="https://user-images.githubusercontent.com/66724202/88395772-7db6d780-cdb9-11ea-9d6e-47d240488ed2.png"></p>
 
 14. Leave the ETH field with 0 (Don't touch it!) and click "Write"
-15. MetaMax will request to confirm that you allow MEW to spend your VUSD, click "Confirm" (see image below)
+15. MetaMask will request to confirm that you allow MEW to spend your VUSD, click "Confirm" (see image below)
 
 <p align="center"><img width="238" alt="Here select CONFIRM" src="https://user-images.githubusercontent.com/66724202/88396301-43016f00-cdba-11ea-8711-d5d56cab9668.png"></p>
 
