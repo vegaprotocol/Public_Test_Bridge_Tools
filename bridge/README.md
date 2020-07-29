@@ -1,4 +1,3 @@
-xx
 # Vega Bridge ERC20
 ## All events
 [Asset_Blacklisted](#asset_blacklisted-event), [Asset_Deposit_Minimum_Set](#asset_deposit_minimum_set-event), [Asset_Deposited](#asset_deposited-event), [Asset_Whitelisted](#asset_whitelisted-event), [Asset_Withdrawn](#asset_withdrawn-event), [Multisig_Control_Set](#multisig_control_set-event), [OwnershipTransferred](#ownershiptransferred-event)
