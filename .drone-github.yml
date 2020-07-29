@@ -11,7 +11,7 @@ platform:
 steps:
 
   - name: update-PDFs
-    image: docker.pkg.github.com/vegaprotocol/devops-infra/cipipeline-frontent:13
+    image: docker.pkg.github.com/vegaprotocol/devops-infra/cipipeline-frontend:13
     pull: always
     volumes: []
     environment: {}
