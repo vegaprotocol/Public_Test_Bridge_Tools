@@ -11,26 +11,26 @@ Tools for interacting with the bridge smart contracts on Ropsten Testnet
 <p align="center"><img width="238" alt="Select Ropsten Test Network screen" src="https://user-images.githubusercontent.com/66724202/88389898-4fcc9580-cdaf-11ea-9b1f-7315ca45d63f.png" class="center"></p>
 
 ## Ropsten Ether Faucet
-In order to run smart contract functions on Ethereum, you must have Ethers to pay gas. On the Ropsten testnet there are a number of Ether faucets to get Ether to test with. 
+In order to run smart contract functions on Ethereum, you must have Ethers to pay gas. On the Ropsten testnet there are a number of Ether faucets to get Ether to test with.
 To get test Ether, you've got a few options.
 
 See VUSD faucet instructions below
-    
+
 - run from command line: `curl -s -H "Content-Type: application/json" -d '{"toWhom":"YOUR_ETHEREUM_ADDRESS_GOES_HERE"}' -X POST https://ropsten.faucet.b9lab.com/tap`
 
 The system should respond with:
-```
+```json
 {
   "txHash" : "TX_HASH"
 }
 ```
 
-**NOTE**: Make sure that the quotes are all correct, the copy/paste might give you some wrong quote that will make the command fail. 
+**NOTE**: Make sure that the quotes are all correct, the copy/paste might give you some wrong quote that will make the command fail.
 
 - Or, if you want to go "**hardcore decentralized mode**", there exists an IPFS-deployed faucet: https://blog.b9lab.com/when-we-first-built-our-faucet-we-deployed-it-on-the-morden-testnet-70bfbf4e317e
 
 ## VUSD Token Faucet:
-To deposit VUSD into Vega via the ERC20 bridge, you must first have VUSD. 
+To deposit VUSD into Vega via the ERC20 bridge, you must first have VUSD.
 
 Luckily, there's a faucet for that too: https://github.com/vegaprotocol/VUSD_Test_Token
 
@@ -47,7 +47,7 @@ Luckily, there's a faucet for that too: https://github.com/vegaprotocol/VUSD_Tes
 
 <p align="center"><img width="478" alt="Dropdown list" src="https://user-images.githubusercontent.com/66724202/88392705-62959900-cdb4-11ea-9958-de1af0f9520e.png" class="center"></p>
 
-9. Leave ETH field with 0 and just click "Write" 
+9. Leave ETH field with 0 and just click "Write"
 10. A window from MetaMask will popup and you just need to select "Continue" (see image below)
 
 <p align="center"><img width="238" alt="MetaMask popup" src="https://user-images.githubusercontent.com/66724202/88390894-0da45380-cdb1-11ea-9221-056afab68a1b.png" class="center"></p>
@@ -58,7 +58,7 @@ Luckily, there's a faucet for that too: https://github.com/vegaprotocol/VUSD_Tes
 
 ## Depositing VUSD into ERC20 Bridge
 
-### MyEtherWallet.com (MEW) + MetaMask 
+### MyEtherWallet.com (MEW) + MetaMask
 First of all you need to obtain VUSD from the VUSD faucet using the instructions above.
 
 **Approve ERC20 Bridge to move your VUSD Tokens** (You need **MetaMask** installed - see above)
@@ -111,3 +111,9 @@ First of all you need to obtain VUSD from the VUSD faucet using the instructions
 
 16. Wait for the transaction to be completed
 17. Your tokens have been deposited into Vega and will be credited to the provided Vega Public Key
+
+## Autogeneration of ABI documentation in CI
+
+The CI pipeline looks for files named `*_abi.json`, and builds them into readme files using [`@vegaprotocol/simple-abi-docgen`](https://github.com/vegaprotocol/simple-abi-docgen).
+
+Updated readme files are pushed with a git commit message of "`Update ABI documentation [NOCI]`".
