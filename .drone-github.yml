@@ -10,7 +10,7 @@ platform:
 
 steps:
 
-  - name: update-PDFs
+  - name: update-ABI-docs
     image: docker.pkg.github.com/vegaprotocol/devops-infra/cipipeline-frontend:13
     pull: always
     volumes: []
