@@ -18,7 +18,7 @@ steps:
     depends_on: []
     commands:
       - if echo "$$DRONE_COMMIT_MESSAGE" | grep -qF '[NOCI]' ; then echo "Skipping CI" ; exit 0 ; fi
-      - ./.build-abi-doc.sh
+      - bash -xe ./.build-abi-doc.sh
       - git diff --name-only | grep '/README.md$$' || exit 0
       - umask 0077
       - mkdir -p ~/.ssh
