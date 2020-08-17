@@ -42,7 +42,7 @@ Luckily, there's a faucet for that too: https://github.com/vegaprotocol/VUSD_Tes
 3. Select "MEW CX" and allow the access to your wallet
 4. Click on "Contract" -> "Interact with Contract"
 5. In the new page, copy the VUSD Test Token address (use VUSD Test Token (Ropsten) - `0x955C6789A7fbee203B4bE0F01428E769308813f2`)
-6. In the ABI/JSON interface, copy and paste the content of the JSON file available here https://github.com/vegaprotocol/Public_Test_Bridge_Tools/blob/bridge-docs/VUSD/VUSD_TEST_ABI.json
+6. In the ABI/JSON interface, copy and paste the content of the JSON file available here https://github.com/vegaprotocol/Public_Test_Bridge_Tools/blob/master/VUSD/VUSD_TEST_ABI.json
 7. Click "Continue"
 8. Click "Select an Item" and in the dropdown list select "Faucet"
 
@@ -69,7 +69,7 @@ First of all you need to obtain VUSD from the VUSD faucet using the instructions
 3. Select "MEW CX" and allow the access to your wallet
 4. Click on "Contract" -> "Interact with Contract"
 5. In the new page, under "Contract Address" copy the VUSD Test Token address (use VUSD Test Token (Ropsten) - `0x955C6789A7fbee203B4bE0F01428E769308813f2`)
-6. In the ABI/JSON interface, copy and paste the content of the JSON file available here https://github.com/vegaprotocol/Public_Test_Bridge_Tools/blob/bridge-docs/VUSD/VUSD_TEST_ABI.json
+6. In the ABI/JSON interface, copy and paste the content of the JSON file available here https://github.com/vegaprotocol/Public_Test_Bridge_Tools/blob/master/VUSD/VUSD_TEST_ABI.json
 7. Click "Continue"
 8. Click "Select an Item" and in the dropdown list select "Approve"
 
@@ -92,7 +92,7 @@ First of all you need to obtain VUSD from the VUSD faucet using the instructions
 4. Select "MEW CX" and allow the access to your wallet
 5. Click on "Contract" -> "Interact with Contract"
 6. In the new page, under "Contract Address" copy the Vega ERC20 Bridge (Ropsten) address (`0xf6C9d3e937fb2dA4995272C1aC3f3D466B7c23fC`)
-7. In the ABI/JSON interface, copy and paste the content of the JSON file available here https://github.com/vegaprotocol/Public_Test_Bridge_Tools/blob/bridge-docs/bridge/Vega_Bridge_ERC20_ABI.json
+7. In the ABI/JSON interface, copy and paste the content of the JSON file available here https://github.com/vegaprotocol/Public_Test_Bridge_Tools/blob/master/bridge/Vega_Bridge_ERC20_abi.json
 8. Click "Continue"
 9. Click "Select an Item" and in the dropdown list select "deposit_asset"
 
