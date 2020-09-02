@@ -7,6 +7,29 @@ Tools for interacting with the bridge smart contracts on Ropsten Testnet
 * Vega ERC20 Bridge (Ropsten): [0xf6C9d3e937fb2dA4995272C1aC3f3D466B7c23fC](https://ropsten.etherscan.io/address/0xf6C9d3e937fb2dA4995272C1aC3f3D466B7c23fC)
 
 
+## Test Tokens:
+All of these tokens are whitelisted to the Vega ERC20 Bridge listed above. They all also have the `faucet()` function.
+
+wDai Test (Ropsten):
+* Address: `0xa281f32aba9d57aa5ff842d030fe8eb4934bcc25`
+* Etherscan: https://ropsten.etherscan.io/token/0xa281f32aba9d57aa5ff842d030fe8eb4934bcc25
+* Tx: https://ropsten.etherscan.io/tx/0x62ddedfc9e42ad88e8f593287a979bdf3a5815a017257b61975ac2ac9f8096ca
+
+wBTC Test (Ropsten):
+* Address: `0x56704115290193859a01e4932bf22cbe5907488f`
+* Etherscan: https://ropsten.etherscan.io/token/0x56704115290193859a01e4932bf22cbe5907488f
+* Tx: https://ropsten.etherscan.io/tx/0x895c7037e6047884433fd5e7a0b0326600cf6446354922422ef2178b0e4b6215
+
+wETH Test (Ropsten):
+* Address: `0x7a81d25fd4939a966a1bf1f63294712c5663831d`
+* Etherscan: https://ropsten.etherscan.io/token/0x7a81d25fd4939a966a1bf1f63294712c5663831d
+* Tx: https://ropsten.etherscan.io/tx/0x25b0c3d27d95cba6d3552db2733ceb57bb33f8005a4ef603ba822870820c9f81 
+
+wVEGA Test (Ropsten):
+* Address: `0xB3b2770147Fa7b4E743e66F8af9d2B1a6eA8BF5F`
+* Etherscan: https://ropsten.etherscan.io/token/0xb3b2770147fa7b4e743e66f8af9d2b1a6ea8bf5f
+* Tx: https://ropsten.etherscan.io/tx/0xe1a1ef7f517ce2d269915ed131b50b0c681c8bac05673d03166cb5ffa21bb4f7
+
 **NOTE**: It's highly suggested for you to install the MetaMask plugin for [Chrome](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en) or [Firefox](https://addons.mozilla.org/en-GB/firefox/addon/ether-metamask/). Just install the plugin and follow the instructions on-screen to create your wallet. Once installed, click on the Network at the top of the plugin screen and select "**Ropsten Test Network**" (see image below)
 
 <p align="center"><img width="238" alt="Select Ropsten Test Network screen" src="https://user-images.githubusercontent.com/66724202/88389898-4fcc9580-cdaf-11ea-9b1f-7315ca45d63f.png" class="center"></p>
@@ -25,6 +48,8 @@ The system should respond with:
   "txHash" : "TX_HASH"
 }
 ```
+
+
 
 **NOTE**: Make sure that the quotes are all correct, the copy/paste might give you some wrong quote that will make the command fail.
 
