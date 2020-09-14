@@ -1,12 +1,6 @@
 # Public_Test_Bridge_Tools
 Tools for interacting with the bridge smart contracts on Ropsten Testnet
 
-* VUSD5 Test Token (Ropsten, 5 decimals): [0x308C71DE1FdA14db838555188211Fc87ef349272](https://ropsten.etherscan.io/address/0x308C71DE1FdA14db838555188211Fc87ef349272)
-* VUSD Test Token (Ropsten): [0x955C6789A7fbee203B4bE0F01428E769308813f2](https://ropsten.etherscan.io/address/0x955C6789A7fbee203B4bE0F01428E769308813f2)
-* Multisig Control (Ropsten): [0x7b9083b496ccb6C303F79A5249d91A3696556e33](https://ropsten.etherscan.io/address/0x7b9083b496ccb6C303F79A5249d91A3696556e33)
-* Vega ERC20 Bridge (Ropsten): [0xf6C9d3e937fb2dA4995272C1aC3f3D466B7c23fC](https://ropsten.etherscan.io/address/0xf6C9d3e937fb2dA4995272C1aC3f3D466B7c23fC)
-
-
 ## Test Tokens:
 All of these tokens are whitelisted to the Vega ERC20 Bridge listed above. They all also have the `faucet()` function.
 
@@ -30,9 +24,65 @@ wVEGA Test (Ropsten):
 * Etherscan: https://ropsten.etherscan.io/token/0xb3b2770147fa7b4e743e66f8af9d2b1a6ea8bf5f
 * Tx: https://ropsten.etherscan.io/tx/0xe1a1ef7f517ce2d269915ed131b50b0c681c8bac05673d03166cb5ffa21bb4f7
 
+VUSD Test Token (Ropsten):
+* Address: `0x955C6789A7fbee203B4bE0F01428E769308813f2`
+* Etherscan: https://ropsten.etherscan.io/token/0x955C6789A7fbee203B4bE0F01428E769308813f2
+
+VUSD5 Test Token (Ropsten, 5 decimals): 
+* Address: `0x308C71DE1FdA14db838555188211Fc87ef349272`
+* Etherscan: https://ropsten.etherscan.io/token/0x308C71DE1FdA14db838555188211Fc87ef349272
+
 **NOTE**: It's highly suggested for you to install the MetaMask plugin for [Chrome](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en) or [Firefox](https://addons.mozilla.org/en-GB/firefox/addon/ether-metamask/). Just install the plugin and follow the instructions on-screen to create your wallet. Once installed, click on the Network at the top of the plugin screen and select "**Ropsten Test Network**" (see image below)
 
 <p align="center"><img width="238" alt="Select Ropsten Test Network screen" src="https://user-images.githubusercontent.com/66724202/88389898-4fcc9580-cdaf-11ea-9b1f-7315ca45d63f.png" class="center"></p>
+
+## Test Bridges
+
+### Develop
+ERC20 Bridge Develop (Ropsten):
+* Address: `0xf6C9d3e937fb2dA4995272C1aC3f3D466B7c23fC`
+* Etherscan: https://ropsten.etherscan.io/address/0xf6C9d3e937fb2dA4995272C1aC3f3D466B7c23fC
+
+ETH Bridge Develop (Ropsten):
+* Address:
+* Etherscan
+
+Multisig Control Develop (Ropsten):
+* Address: `0x7b9083b496ccb6C303F79A5249d91A3696556e33`
+* Etherscan: https://ropsten.etherscan.io/address/0x7b9083b496ccb6C303F79A5249d91A3696556e33
+
+### Staging
+ERC20 Bridge Staging (Ropsten):
+* Address: `0x220091406A379cebfD0590fe234e23Efb6d0CBb2`
+* Etherscan: https://ropsten.etherscan.io/address/0x220091406a379cebfd0590fe234e23efb6d0cbb2
+* Tx: https://ropsten.etherscan.io/tx/0x9419f953ff3ec0e903e9cb0d9f1ac646285b2dbe1c7877183e2bb28cd4c86ea0
+
+ETH Bridge Staging (Ropsten):
+* Address:
+* Etherscan
+* Tx:
+
+Multisig Control Staging (Ropsten):
+* Address: `0x58Cd8046CAe8016a60563ad2a12c642b49C02555`
+* Etherscan: https://ropsten.etherscan.io/address/0x58cd8046cae8016a60563ad2a12c642b49c02555
+* Tx: https://ropsten.etherscan.io/tx/0x43fcae3c57eb930d3adb44622a43e5183121b70fe26d3f346854d821129d389b
+
+### Test
+ERC20 Bridge Test (Ropsten):
+* Address: `0xbE39479b1fE065Fdd3510E8997738eb22DfA3357`
+* Etherscan: https://ropsten.etherscan.io/address/0xbe39479b1fe065fdd3510e8997738eb22dfa3357
+* Tx: https://ropsten.etherscan.io/tx/0x32eaa7177a5c171161b2896d0752a90663d6c125def9bae5a2bef5c9649da613
+
+ETH Bridge Test (Ropsten):
+* Address:
+* Etherscan
+* Tx:
+
+Multisig Control Test (Ropsten):
+* Address: `0x0a8899387EdA7F5e20E587766FF1BD0552206Ff1`
+* Etherscan: https://ropsten.etherscan.io/address/0x0a8899387eda7f5e20e587766ff1bd0552206ff1
+* Tx: https://ropsten.etherscan.io/tx/0xabc87f816f0941ea3f33bc13ba67911d444aacc7182052ba1da820ac7a5ab8db
+
 
 ## Ropsten Ether Faucet
 In order to run smart contract functions on Ethereum, you must have Ethers to pay gas. On the Ropsten testnet there are a number of Ether faucets to get Ether to test with.
