@@ -106,6 +106,8 @@ The system should respond with:
 - Or, if you want to go "**hardcore decentralized mode**", there exists an IPFS-deployed faucet: https://blog.b9lab.com/when-we-first-built-our-faucet-we-deployed-it-on-the-morden-testnet-70bfbf4e317e
 
 ## VUSD Token Faucet:
+**NOTE: These instructions will work for any of the above-listed test tokens**
+
 To deposit VUSD into Vega via the ERC20 bridge, you must first have VUSD.
 
 Luckily, there's a faucet for that too: https://github.com/vegaprotocol/VUSD_Test_Token
