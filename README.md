@@ -6,30 +6,36 @@ All of these tokens are whitelisted to the Vega ERC20 Bridge listed above. They 
 
 wDai Test (Ropsten):
 * Address: `0xa281f32aba9d57aa5ff842d030fe8eb4934bcc25`
+* Vega ID Develop: `0x9498d80960bf629d384022fb349b768f1f0a474bde887ebfb4ae90c394887896`
 * Etherscan: https://ropsten.etherscan.io/token/0xa281f32aba9d57aa5ff842d030fe8eb4934bcc25
 * Tx: https://ropsten.etherscan.io/tx/0x62ddedfc9e42ad88e8f593287a979bdf3a5815a017257b61975ac2ac9f8096ca
 
 wBTC Test (Ropsten):
 * Address: `0x56704115290193859a01e4932bf22cbe5907488f`
+* Vega ID Develop: `0xaff860d55212f711ed6ccf949475c80c28131be8e8d284edd79c76519e74304b`
 * Etherscan: https://ropsten.etherscan.io/token/0x56704115290193859a01e4932bf22cbe5907488f
 * Tx: https://ropsten.etherscan.io/tx/0x895c7037e6047884433fd5e7a0b0326600cf6446354922422ef2178b0e4b6215
 
 wETH Test (Ropsten):
 * Address: `0x7a81d25fd4939a966a1bf1f63294712c5663831d`
+* Vega ID Develop: `0xda58109923a39b3f2f04f6907859101a3dc40c37b1bced6bec32e219de28e76d`
 * Etherscan: https://ropsten.etherscan.io/token/0x7a81d25fd4939a966a1bf1f63294712c5663831d
 * Tx: https://ropsten.etherscan.io/tx/0x25b0c3d27d95cba6d3552db2733ceb57bb33f8005a4ef603ba822870820c9f81 
 
 wVEGA Test (Ropsten):
 * Address: `0xB3b2770147Fa7b4E743e66F8af9d2B1a6eA8BF5F`
+* Vega ID Develop: `0x733928dd13c39b4eaa1cc04f5f3862713f29bac98076c106215de870e0347709`
 * Etherscan: https://ropsten.etherscan.io/token/0xb3b2770147fa7b4e743e66f8af9d2b1a6ea8bf5f
 * Tx: https://ropsten.etherscan.io/tx/0xe1a1ef7f517ce2d269915ed131b50b0c681c8bac05673d03166cb5ffa21bb4f7
 
 VUSD Test Token (Ropsten):
 * Address: `0x955C6789A7fbee203B4bE0F01428E769308813f2`
+* Vega ID Develop: `0x0101010101010101010101010101010101010101010101010101010101010101`
 * Etherscan: https://ropsten.etherscan.io/token/0x955C6789A7fbee203B4bE0F01428E769308813f2
 
 VUSD5 Test Token (Ropsten, 5 decimals): 
 * Address: `0x308C71DE1FdA14db838555188211Fc87ef349272`
+* Vega ID Develop: `0x460be4264be2d8e3d7a85696ec66d5c5a86e19617f7dc4ddfe127e30b3bfd620`
 * Etherscan: https://ropsten.etherscan.io/token/0x308C71DE1FdA14db838555188211Fc87ef349272
 
 **NOTE**: It's highly suggested for you to install the MetaMask plugin for [Chrome](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en) or [Firefox](https://addons.mozilla.org/en-GB/firefox/addon/ether-metamask/). Just install the plugin and follow the instructions on-screen to create your wallet. Once installed, click on the Network at the top of the plugin screen and select "**Ropsten Test Network**" (see image below)
@@ -45,7 +51,7 @@ ERC20 Bridge Develop (Ropsten):
 
 ETH Bridge Develop (Ropsten):
 * Address:
-* Etherscan
+* Etherscan: 
 
 Multisig Control Develop (Ropsten):
 * Address: `0x7b9083b496ccb6C303F79A5249d91A3696556e33`
@@ -59,7 +65,7 @@ ERC20 Bridge Staging (Ropsten):
 
 ETH Bridge Staging (Ropsten):
 * Address:
-* Etherscan
+* Etherscan: 
 * Tx:
 
 Multisig Control Staging (Ropsten):
@@ -75,7 +81,7 @@ ERC20 Bridge Test (Ropsten):
 
 ETH Bridge Test (Ropsten):
 * Address:
-* Etherscan
+* Etherscan: 
 * Tx:
 
 Multisig Control Test (Ropsten):
