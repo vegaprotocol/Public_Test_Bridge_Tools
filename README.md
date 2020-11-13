@@ -2,7 +2,7 @@
 Tools for interacting with the bridge smart contracts on Ropsten Testnet
 
 ## Test Tokens:
-All of these tokens are whitelisted to the Vega ERC20 Bridge listed above. They all also have the `faucet()` function.
+All of these tokens have the `faucet()` function and will be available on the bridges once put through the listing process.
 
 wDai Test (Ropsten):
 * Address: `0xa281f32aba9d57aa5ff842d030fe8eb4934bcc25`
