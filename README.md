@@ -94,9 +94,18 @@ Multisig Control Test (Ropsten):
 In order to run smart contract functions on Ethereum, you must have Ethers to pay gas. On the Ropsten testnet there are a number of Ether faucets to get Ether to test with.
 To get test Ether, you've got a few options.
 
-See VUSD faucet instructions below
+### Easy mode
+- https://faucet.dimensions.network/
+- https://faucet.ropsten.be/
 
-- run from command line: `curl -s -H "Content-Type: application/json" -d '{"toWhom":"YOUR_ETHEREUM_ADDRESS_GOES_HERE"}' -X POST https://ropsten.faucet.b9lab.com/tap`
+### Hard more
+
+**NOTE**: Make sure that the quotes are all correct, the copy/paste might give you some wrong quote that will make the command fail.
+
+Run the following command line: 
+```bash
+curl -s -H "Content-Type: application/json" -d '{"toWhom":"YOUR_ETHEREUM_ADDRESS_GOES_HERE"}' -X POST https://ropsten.faucet.b9lab.com/tap
+```
 
 The system should respond with:
 ```json
@@ -105,11 +114,8 @@ The system should respond with:
 }
 ```
 
-
-
-**NOTE**: Make sure that the quotes are all correct, the copy/paste might give you some wrong quote that will make the command fail.
-
-- Or, if you want to go "**hardcore decentralized mode**", there exists an IPFS-deployed faucet: https://blog.b9lab.com/when-we-first-built-our-faucet-we-deployed-it-on-the-morden-testnet-70bfbf4e317e
+### Harder mode
+If you want to go "**hardcore decentralized mode**", there exists an IPFS-deployed faucet: https://blog.b9lab.com/when-we-first-built-our-faucet-we-deployed-it-on-the-morden-testnet-70bfbf4e317e
 
 ## VUSD Token Faucet:
 **NOTE: These instructions will work for any of the above-listed test tokens**
