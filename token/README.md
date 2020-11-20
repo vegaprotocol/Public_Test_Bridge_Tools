@@ -1,4 +1,4 @@
-# Token
+# token
 ## All events
 [Approval](#approval-event), [OwnershipTransferred](#ownershiptransferred-event), [Transfer](#transfer-event)
 
