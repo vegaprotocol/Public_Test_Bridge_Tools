@@ -7,7 +7,7 @@ Bridges for other networks are available in the [docs/ folder](./docs/bridges.md
 ## Test Tokens:
 | Token Name | Token Address | Details |
 |:----------:|:-------------:|:-------:|
-|    tDai    | `0xBe3304136265290BDdBc0930CB6F26c3428929e2`              | [🔍](./docs/tokens.md#tdai)        |
+|    tDAI    | `0xBe3304136265290BDdBc0930CB6F26c3428929e2`              | [🔍](./docs/tokens.md#tdai)        |
 |    tBTC    | `0x7778F85d0Ceb51950cD9AE24086af723069865fC`              | [🔍](./docs/tokens.md#tbtc)        |
 |    tUSDC   | `0x2c6984bff4f8a3e13f071112085773D78B28F1F2`              | [🔍](./docs/tokens.md#tusdc)        |
 |    tEURO   | `0x0f4c414fe20C998023A14207FA6E1176D4D4F4fb`              | [🔍](./docs/tokens.md#teuro)        |
