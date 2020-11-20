@@ -24,5 +24,4 @@ The system should respond with:
 ## Hardcore
 If you want to go "**hardcore decentralized mode**", there exists an IPFS-deployed faucet: https://blog.b9lab.com/when-we-first-built-our-faucet-we-deployed-it-on-the-morden-testnet-70bfbf4e317e
 
-
-[x](../README.md)
+[👈 Back to index](../README.md)
