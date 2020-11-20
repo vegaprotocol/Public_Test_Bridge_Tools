@@ -1,4 +1,4 @@
-# Public_Test_Bridge_Tools
+# Vega Bridge
 Tools for interacting with the bridge smart contracts on Ropsten Testnet. The bridge for *testnet* is:
 
 **Address**: [0xbE39479b1fE065Fdd3510E8997738eb22DfA3357](https://ropsten.etherscan.io/address/0xbE39479b1fE065Fdd3510E8997738eb22DfA3357)
