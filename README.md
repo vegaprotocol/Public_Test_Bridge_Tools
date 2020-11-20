@@ -20,14 +20,14 @@ tUSDC Test [tUSDC] (Ropsten):
 * Etherscan: https://ropsten.etherscan.io/token/0x2c6984bff4f8a3e13f071112085773D78B28F1F2
 
 tEURO Test [tEURO] (Ropsten):
-* Address: `0xBab9201f25642e9917C3CDFb0d491A5ea13Df8A0`
+* Address: `0x0f4c414fe20C998023A14207FA6E1176D4D4F4fb`
 * Vega ID: `0x460be4264be2d8e3d7a85696ec66d5c5a86e19617f7dc4ddfe127e30b3bfd620`
-* Etherscan: https://ropsten.etherscan.io/token/0xBab9201f25642e9917C3CDFb0d491A5ea13Df8A0
+* Etherscan: https://ropsten.etherscan.io/token/0x0f4c414fe20C998023A14207FA6E1176D4D4F4fb
 
 tVOTE Test [tVOTE] (Ropsten):
-* Address: `0x0f4c414fe20C998023A14207FA6E1176D4D4F4fb`
+* Address: `0xBab9201f25642e9917C3CDFb0d491A5ea13Df8A0`
 * Vega ID: `0xf11862be7fc37c47372439f982a8f09912c4f995434120ff43ff51d9c34ef71a`
-* Etherscan: https://ropsten.etherscan.io/token/0x0f4c414fe20C998023A14207FA6E1176D4D4F4fb
+* Etherscan: https://ropsten.etherscan.io/token/0xBab9201f25642e9917C3CDFb0d491A5ea13Df8A0
 
 **NOTE**: It's highly suggested for you to install the MetaMask plugin for [Chrome](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en) or [Firefox](https://addons.mozilla.org/en-GB/firefox/addon/ether-metamask/). Just install the plugin and follow the instructions on-screen to create your wallet. Once installed, click on the Network at the top of the plugin screen and select "**Ropsten Test Network**" (see image below)
 
