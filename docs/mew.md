@@ -4,7 +4,7 @@ Sometimes, you don't want the Vega Console to do everything for you. Here's how 
 ## Token Faucet:
 **NOTE: These instructions will work for any of the above-listed test tokens**
 
-To deposit test tokens into Vega via the ERC20 bridge, you must first have the tokens.
+To deposit test tokens into Vega via the [ERC20 bridge](./README.md), you must first have the tokens.
 
 Luckily, there's a faucet for that!
 
@@ -48,7 +48,7 @@ First of all you need to obtain tokens from the test token faucet using the inst
 
 <p align="center"><img width="478" alt="Dropdown list" src="https://user-images.githubusercontent.com/66724202/88393164-20208c00-cdb5-11ea-8163-524524c68dcb.png" class="center"></p>
 
-9. In the "Spender (address)" field copy/paste the Target ERC20 BRIDGE (Ropsten) address from the list above.
+9. In the "Spender (address)" field copy/paste the [Target ERC20 BRIDGE address](./bridges.md).
 10. In the "Value (uint256)" field write in the number of tokens you would like to deposit followed by 5 zeros (00000) (example: if you want to limit to 1000 tokens you need to write: `100000000`)
 11. leave the ETH at 0 (DON'T TOUCH IT) and click "Write"
 12. MetaMask will request to confirm that you allow MEW to spend your tokens, click "Confirm" (see image below)
@@ -71,7 +71,7 @@ First of all you need to obtain tokens from the test token faucet using the inst
 
 <p align="center"><img width="478" alt="Dropdown list" src="https://user-images.githubusercontent.com/66724202/88395091-6aefd300-cdb8-11ea-9a6f-f029a41d9020.png"></p>
 
-10. In the "Asset_source (address)" field paste the Test Token (Ropsten) address from the list above
+10. In the "Asset_source (address)" field paste the [Test Token address](./tokens.md)
 11. In the "Asset_id (uint256)" field leave zero (0)
 12. In the "Amount (uint256)" field write the amount of tokens you would like to deposit followed by 5 zeros (00000) (example: if you want to deposit 1 token you need to write: `100000`) **NOTE: It cannot be above the previously selected limit**
 13. In the "Vega_public_key (bytes32)" copy/paste the Vega PubKey (**prepend the PubKey with 0x**) for the Vega Account you would like the tokens to be credited for this deposit. You can find it in Console by clicking on "Hosted Wallet" (top right), then below "Select Key for Trading" click on "view" next to the relevant key, and then click "copy" (see images below)
