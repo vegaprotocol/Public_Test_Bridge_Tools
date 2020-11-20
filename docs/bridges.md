@@ -33,8 +33,6 @@ Multisig Control Staging (Ropsten):
 * Etherscan: https://ropsten.etherscan.io/address/0x58cd8046cae8016a60563ad2a12c642b49c02555
 * Tx: https://ropsten.etherscan.io/tx/0x43fcae3c57eb930d3adb44622a43e5183121b70fe26d3f346854d821129d389b
 
-
-[👈 Back to index](../README.md)
 ## Develop
 ERC20 Bridge Develop (Ropsten):
 * Address: `0xf6C9d3e937fb2dA4995272C1aC3f3D466B7c23fC`
@@ -48,4 +46,4 @@ Multisig Control Develop (Ropsten):
 * Address: `0x7b9083b496ccb6C303F79A5249d91A3696556e33`
 * Etherscan: https://ropsten.etherscan.io/address/0x7b9083b496ccb6C303F79A5249d91A3696556e33
 
-[x](../README.md)
+[👈 Back to index](../README.md)
