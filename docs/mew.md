@@ -1,7 +1,35 @@
 # Interacting with the contracts
 Sometimes, you don't want the Vega Console to do everything for you. Here's how to request tokens fromm the contracts directly. To follow the instructions below, you'll need to have some Ropsten Ether to cover the gas costs. [Instructions available here](./ropsten_eth.md).
 
-## Token Faucet:
+## Step 1: Get Ropsten ETH
+In order to run smart contract functions on Ethereum, you must have Ether to pay gas. On the Ropsten testnet there are a number of Ether faucets to get Ether to test with.
+
+## Easy
+Enter your address in to one of the following:
+- https://faucet.dimensions.network/
+- https://faucet.ropsten.be/
+
+## Medium 
+**NOTE**: Make sure that the quotes are all correct, the copy/paste might give you some wrong quote that will make the command fail.
+
+Run the following command line: 
+```bash
+curl -s -H "Content-Type: application/json" -d '{"toWhom":"YOUR_ETHEREUM_ADDRESS_GOES_HERE"}' -X POST https://ropsten.faucet.b9lab.com/tap
+```
+
+The system should respond with:
+```json
+{
+  "txHash" : "TX_HASH"
+}
+```
+
+## Hardcore
+If you want to go "**hardcore decentralized mode**", there exists an IPFS-deployed faucet: https://blog.b9lab.com/when-we-first-built-our-faucet-we-deployed-it-on-the-morden-testnet-70bfbf4e317e
+
+[👈 Back to index](../README.md)
+
+# Step 2: Token Faucet
 **NOTE: These instructions will work for any of the above-listed test tokens**
 
 To deposit test tokens into Vega via the [ERC20 bridge](./README.md), you must first have the tokens.
@@ -30,7 +58,7 @@ Luckily, there's a faucet for that!
 
 <p align="center"><img width="238" alt="MetaMask Assets" src="https://user-images.githubusercontent.com/66724202/88391027-417f7900-cdb1-11ea-831d-b1a79fca570e.png" class="center"></p>
 
-## Depositing test tokens into ERC20 Bridge
+## Step 3: Depositing test tokens into ERC20 Bridge
 
 ### MyEtherWallet.com (MEW) + MetaMask
 First of all you need to obtain tokens from the test token faucet using the instructions above.
