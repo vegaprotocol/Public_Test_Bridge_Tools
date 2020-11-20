@@ -26,4 +26,4 @@ The Vega public testnet testnet has the following token contracts allowed from g
 * Vega ID: `0xf11862be7fc37c47372439f982a8f09912c4f995434120ff43ff51d9c34ef71a`$
 * ABI: [ABI](../token/)
 
-[x](../README.md)
+[👈](../README.md)
