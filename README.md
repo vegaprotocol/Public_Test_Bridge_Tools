@@ -108,21 +108,21 @@ The system should respond with:
 ### Harder mode
 If you want to go "**hardcore decentralized mode**", there exists an IPFS-deployed faucet: https://blog.b9lab.com/when-we-first-built-our-faucet-we-deployed-it-on-the-morden-testnet-70bfbf4e317e
 
-## VUSD Token Faucet:
+## Token Faucet:
 **NOTE: These instructions will work for any of the above-listed test tokens**
 
-To deposit VUSD into Vega via the ERC20 bridge, you must first have VUSD.
+To deposit test tokens into Vega via the ERC20 bridge, you must first have the tokens.
 
-Luckily, there's a faucet for that too: https://github.com/vegaprotocol/VUSD_Test_Token
+Luckily, there's a faucet for that!
 
-**If you want to follow a quick how-to to add VUSD to your wallet:**
+**If you want to follow a quick how-to to add a test token to your wallet:**
 
 1. Go to: https://www.myetherwallet.com/ (**make sure is the .com, any other is a scam/phishing website that would corrupt your wallet and steal everything!!!**)
 2. Click on "Access my Wallet"
 3. Select "MEW CX" and allow the access to your wallet
 4. Click on "Contract" -> "Interact with Contract"
-5. In the new page, copy the VUSD Test Token address (use VUSD Test Token (Ropsten) - `0x955C6789A7fbee203B4bE0F01428E769308813f2`)
-6. In the ABI/JSON interface, copy and paste the content of the JSON file available here https://github.com/vegaprotocol/Public_Test_Bridge_Tools/blob/master/VUSD/VUSD_TEST_ABI.json
+5. In the new page, copy the desired Test Token address from the list above.
+6. In the ABI/JSON interface, copy and paste the content of the JSON file available here https://github.com/vegaprotocol/Public_Test_Bridge_Tools/blob/master/TOKEN%20ABI/token_abi.json
 7. Click "Continue"
 8. Click "Select an Item" and in the dropdown list select "Faucet"
 
@@ -133,32 +133,32 @@ Luckily, there's a faucet for that too: https://github.com/vegaprotocol/VUSD_Tes
 
 <p align="center"><img width="238" alt="MetaMask popup" src="https://user-images.githubusercontent.com/66724202/88390894-0da45380-cdb1-11ea-9221-056afab68a1b.png" class="center"></p>
 
-11. Wait some time until you get the notification that the transaction has been completed, and if you click on the MetaMask plugin, and select "Assets" you should be able to see the VUSD asset like in the image below
+11. Wait some time until you get the notification that the transaction has been completed, and if you click on the MetaMask plugin, and select "Assets" you should be able to see the token asset like in the image below
 
 <p align="center"><img width="238" alt="MetaMask Assets" src="https://user-images.githubusercontent.com/66724202/88391027-417f7900-cdb1-11ea-831d-b1a79fca570e.png" class="center"></p>
 
-## Depositing VUSD into ERC20 Bridge
+## Depositing test tokens into ERC20 Bridge
 
 ### MyEtherWallet.com (MEW) + MetaMask
-First of all you need to obtain VUSD from the VUSD faucet using the instructions above.
+First of all you need to obtain tokens from the test token faucet using the instructions above.
 
-**Approve ERC20 Bridge to move your VUSD Tokens** (You need **MetaMask** installed - see above)
+**Approve ERC20 Bridge to move your test tokens** (You need **MetaMask** installed - see above)
 
 1. Go to: https://www.myetherwallet.com/ (**make sure is the .com, any other is a scam/phishing website that would corrupt your wallet and steal everything!!!**)
 2. Click on "Access my Wallet"
 3. Select "MEW CX" and allow the access to your wallet
 4. Click on "Contract" -> "Interact with Contract"
-5. In the new page, under "Contract Address" copy the VUSD Test Token address (use VUSD Test Token (Ropsten) - `0x955C6789A7fbee203B4bE0F01428E769308813f2`)
-6. In the ABI/JSON interface, copy and paste the content of the JSON file available here https://github.com/vegaprotocol/Public_Test_Bridge_Tools/blob/master/VUSD/VUSD_TEST_ABI.json
+5. In the new page, under "Contract Address" copy the Test Token address from the list above
+6. In the ABI/JSON interface, copy and paste the content of the JSON file available here https://github.com/vegaprotocol/Public_Test_Bridge_Tools/blob/master/TOKEN%20ABI/token_abi.json
 7. Click "Continue"
 8. Click "Select an Item" and in the dropdown list select "Approve"
 
 <p align="center"><img width="478" alt="Dropdown list" src="https://user-images.githubusercontent.com/66724202/88393164-20208c00-cdb5-11ea-8163-524524c68dcb.png" class="center"></p>
 
-9. In the "Spender (address)" field copy/paste the Vega ERC20 Bridge (Ropsten) address (`0xf6C9d3e937fb2dA4995272C1aC3f3D466B7c23fC`)
-10. In the "Value (uint256)" field write in the number of tokens you would like to deposit followed by 18 zeros (000000000000000000) (example: if you want to limit to 1000 tokens you need to write: `1000000000000000000000`)
+9. In the "Spender (address)" field copy/paste the Target ERC20 BRIDGE (Ropsten) address from the list above.
+10. In the "Value (uint256)" field write in the number of tokens you would like to deposit followed by 5 zeros (00000) (example: if you want to limit to 1000 tokens you need to write: `100000000`)
 11. leave the ETH at 0 (DON'T TOUCH IT) and click "Write"
-12. MetaMask will request to confirm that you allow MEW to spend your VUSD, click "Confirm" (see image below)
+12. MetaMask will request to confirm that you allow MEW to spend your tokens, click "Confirm" (see image below)
 
 <p align="center"><img width="238" alt="Here select CONFIRM" src="https://user-images.githubusercontent.com/66724202/88394400-4ba47600-cdb7-11ea-8e66-e2df46e87c61.png"></p>
 
@@ -171,22 +171,22 @@ First of all you need to obtain VUSD from the VUSD faucet using the instructions
 3. Click on "Access my Wallet"
 4. Select "MEW CX" and allow the access to your wallet
 5. Click on "Contract" -> "Interact with Contract"
-6. In the new page, under "Contract Address" copy the Vega ERC20 Bridge (Ropsten) address (`0xf6C9d3e937fb2dA4995272C1aC3f3D466B7c23fC`)
+6. In the new page, under "Contract Address" copy the Vega ERC20 BRIDGE (Ropsten) address from the list above
 7. In the ABI/JSON interface, copy and paste the content of the JSON file available here https://github.com/vegaprotocol/Public_Test_Bridge_Tools/blob/master/bridge/Vega_Bridge_ERC20_abi.json
 8. Click "Continue"
 9. Click "Select an Item" and in the dropdown list select "deposit_asset"
 
 <p align="center"><img width="478" alt="Dropdown list" src="https://user-images.githubusercontent.com/66724202/88395091-6aefd300-cdb8-11ea-9a6f-f029a41d9020.png"></p>
 
-10. In the "Asset_source (address)" field paste the VUSD Test Token (Ropsten) address (`0x955C6789A7fbee203B4bE0F01428E769308813f2`)
+10. In the "Asset_source (address)" field paste the Test Token (Ropsten) address from the list above
 11. In the "Asset_id (uint256)" field leave zero (0)
-12. In the "Amount (uint256)" field write the amount of tokens you would like to deposit followed by 18 zeros (000000000000000000) (example: if you want to deposit 1 VUSD you need to write: `1000000000000000000`) **NOTE: It cannot be above the previously selected limit**
+12. In the "Amount (uint256)" field write the amount of tokens you would like to deposit followed by 5 zeros (00000) (example: if you want to deposit 1 token you need to write: `100000`) **NOTE: It cannot be above the previously selected limit**
 13. In the "Vega_public_key (bytes32)" copy/paste the Vega PubKey (**prepend the PubKey with 0x**) for the Vega Account you would like the tokens to be credited for this deposit. You can find it in Console by clicking on "Hosted Wallet" (top right), then below "Select Key for Trading" click on "view" next to the relevant key, and then click "copy" (see images below)
 
 <p align="center"><img width="238" alt="Click on Hosted Wallet" src="https://user-images.githubusercontent.com/66724202/88395723-6c6dcb00-cdb9-11ea-9e53-bbd831d837f0.png"> <img width="238" alt="Click on View" src="https://user-images.githubusercontent.com/66724202/88395750-742d6f80-cdb9-11ea-8cc6-5f8c976d4d93.png"> <img width="238" alt="Click copy" src="https://user-images.githubusercontent.com/66724202/88395772-7db6d780-cdb9-11ea-9d6e-47d240488ed2.png"></p>
 
 14. Leave the ETH field with 0 (Don't touch it!) and click "Write"
-15. MetaMask will request to confirm that you allow MEW to spend your VUSD, click "Confirm" (see image below)
+15. MetaMask will request to confirm that you allow MEW to spend your test tokens, click "Confirm" (see image below)
 
 <p align="center"><img width="238" alt="Here select CONFIRM" src="https://user-images.githubusercontent.com/66724202/88396301-43016f00-cdba-11ea-8711-d5d56cab9668.png"></p>
 
