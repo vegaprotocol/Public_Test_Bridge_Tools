@@ -2,41 +2,32 @@
 Tools for interacting with the bridge smart contracts on Ropsten Testnet
 
 ## Test Tokens:
-All of these tokens have the `faucet()` function and will be available on the bridges once put through the listing process.
+All of these tokens have the `faucet()` function and are available on the bridges.
 
-wDai Test (Ropsten):
-* Address: `0xa281f32aba9d57aa5ff842d030fe8eb4934bcc25`
-* Vega ID Develop: `0x9498d80960bf629d384022fb349b768f1f0a474bde887ebfb4ae90c394887896`
-* Etherscan: https://ropsten.etherscan.io/token/0xa281f32aba9d57aa5ff842d030fe8eb4934bcc25
-* Tx: https://ropsten.etherscan.io/tx/0x62ddedfc9e42ad88e8f593287a979bdf3a5815a017257b61975ac2ac9f8096ca
+tDAI Test [tDAI] (Ropsten):
+* Address: `0x88235D5967fc2881eE3A2478a108dEcA9AF82F07`
+* Vega ID: `0x6d9d35f657589e40ddfb448b7ad4a7463b66efb307527fedd2aa7df1bbd5ea61`
+* Etherscan: https://ropsten.etherscan.io/token/0x88235D5967fc2881eE3A2478a108dEcA9AF82F07
 
-wBTC Test (Ropsten):
-* Address: `0x56704115290193859a01e4932bf22cbe5907488f`
-* Vega ID Develop: `0xaff860d55212f711ed6ccf949475c80c28131be8e8d284edd79c76519e74304b`
-* Etherscan: https://ropsten.etherscan.io/token/0x56704115290193859a01e4932bf22cbe5907488f
-* Tx: https://ropsten.etherscan.io/tx/0x895c7037e6047884433fd5e7a0b0326600cf6446354922422ef2178b0e4b6215
+tBTC Test [tBTC] (Ropsten):
+* Address: `0xCafa8d1cD0517154b9Fa4191e0C325C3CD17dbeC`
+* Vega ID: `0x5cfa87844724df6069b94e4c8a6f03af21907d7bc251593d08e4251043ee9f7c`
+* Etherscan: https://ropsten.etherscan.io/token/0xCafa8d1cD0517154b9Fa4191e0C325C3CD17dbeC
 
-wETH Test (Ropsten):
-* Address: `0x7a81d25fd4939a966a1bf1f63294712c5663831d`
-* Vega ID Develop: `0xda58109923a39b3f2f04f6907859101a3dc40c37b1bced6bec32e219de28e76d`
-* Etherscan: https://ropsten.etherscan.io/token/0x7a81d25fd4939a966a1bf1f63294712c5663831d
-* Tx: https://ropsten.etherscan.io/tx/0x25b0c3d27d95cba6d3552db2733ceb57bb33f8005a4ef603ba822870820c9f81 
+tUSDC Test [tUSDC] (Ropsten):
+* Address: `0xD54397AA1CadC1A4c53D7baB7Ff9054Ccc93D9cF`
+* Vega ID: `0x993ed98f4f770d91a796faab1738551193ba45c62341d20597df70fea6704ede`
+* Etherscan: https://ropsten.etherscan.io/token/0xD54397AA1CadC1A4c53D7baB7Ff9054Ccc93D9cF
 
-wVEGA Test (Ropsten):
-* Address: `0xB3b2770147Fa7b4E743e66F8af9d2B1a6eA8BF5F`
-* Vega ID Develop: `0x733928dd13c39b4eaa1cc04f5f3862713f29bac98076c106215de870e0347709`
-* Etherscan: https://ropsten.etherscan.io/token/0xb3b2770147fa7b4e743e66f8af9d2b1a6ea8bf5f
-* Tx: https://ropsten.etherscan.io/tx/0xe1a1ef7f517ce2d269915ed131b50b0c681c8bac05673d03166cb5ffa21bb4f7
+tEURO Test [tEURO] (Ropsten):
+* Address: `0x01a05bCD4474156fca44aff6c65e248Fe9020773`
+* Vega ID: `0x460be4264be2d8e3d7a85696ec66d5c5a86e19617f7dc4ddfe127e30b3bfd620`
+* Etherscan: https://ropsten.etherscan.io/token/0x01a05bCD4474156fca44aff6c65e248Fe9020773
 
-VUSD Test Token (Ropsten):
-* Address: `0x955C6789A7fbee203B4bE0F01428E769308813f2`
-* Vega ID Develop: `0x0101010101010101010101010101010101010101010101010101010101010101`
-* Etherscan: https://ropsten.etherscan.io/token/0x955C6789A7fbee203B4bE0F01428E769308813f2
-
-VUSD5 Test Token (Ropsten, 5 decimals): 
-* Address: `0x308C71DE1FdA14db838555188211Fc87ef349272`
-* Vega ID Develop: `0x460be4264be2d8e3d7a85696ec66d5c5a86e19617f7dc4ddfe127e30b3bfd620`
-* Etherscan: https://ropsten.etherscan.io/token/0x308C71DE1FdA14db838555188211Fc87ef349272
+tVOTE Test [tVOTE] (Ropsten):
+* Address: `0xdA7f5fC085Cabf8Af741cf05C7C998BbA4380f32`
+* Vega ID: `0xf11862be7fc37c47372439f982a8f09912c4f995434120ff43ff51d9c34ef71a`
+* Etherscan: https://ropsten.etherscan.io/token/0xdA7f5fC085Cabf8Af741cf05C7C998BbA4380f32
 
 **NOTE**: It's highly suggested for you to install the MetaMask plugin for [Chrome](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en) or [Firefox](https://addons.mozilla.org/en-GB/firefox/addon/ether-metamask/). Just install the plugin and follow the instructions on-screen to create your wallet. Once installed, click on the Network at the top of the plugin screen and select "**Ropsten Test Network**" (see image below)
 
