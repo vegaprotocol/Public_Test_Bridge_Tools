@@ -1,5 +1,5 @@
 # Interacting with the contracts
-Sometimes, you don't want the Vega Console to do everything for you. Here's how to request tokens fromm the contracts directly. To follow the instructions below, you'll need to have some Ropsten Ether to cover the gas costs. [Instructions available here]](./dopcs/ropsten_eth.md).
+Sometimes, you don't want the Vega Console to do everything for you. Here's how to request tokens fromm the contracts directly. To follow the instructions below, you'll need to have some Ropsten Ether to cover the gas costs. [Instructions available here]](./ropsten_eth.md).
 
 ## Token Faucet:
 **NOTE: These instructions will work for any of the above-listed test tokens**
