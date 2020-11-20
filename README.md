@@ -18,7 +18,7 @@ All of these tokens have the `faucet()` function and are already supported on te
 **NOTE**: It's highly suggested for you to install the MetaMask plugin for [Chrome](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en) or [Firefox](https://addons.mozilla.org/en-GB/firefox/addon/ether-metamask/). Just install the plugin and follow the instructions on-screen to create your wallet. Once installed, click on the Network at the top of the plugin screen and select "**Ropsten Test Network**".
 
 
-# Faucet
+# How to get them
 To get these tokens in testnet, you have two choices:
 - Faucets for all of the tokens above are available from within Vega Console. After logging in to your [Vega Wallet](https://github.com/vegaprotocol/go-wallet), open up the Account drawer, go to 'Manage' under the appropriate asset, and follow the instructions there.
 - [Do-It-Yourself with MyEtherWallet](./docs/mew.md).
