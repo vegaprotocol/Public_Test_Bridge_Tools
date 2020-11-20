@@ -21,7 +21,7 @@ All of these tokens have the `faucet()` function and are already supported on te
 # Faucet
 To get these tokens in testnet, you have two choices:
 - Faucets for all of the tokens above are available from within Vega Console. After logging in to an appropriate [Vega Wallet](https://github.com/vegaprotocol/go-wallet), open up the Account drawer, go to 'Manage' under the appropriate asset, and follow the instructions there
-- [Do-It-Yourself with MyEtherWalelt](./docs/mew.md).
+- [Do-It-Yourself with MyEtherWallet](./docs/mew.md).
 
 # Contributing
 ## Autogeneration of ABI documentation in CI
