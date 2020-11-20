@@ -1,112 +1,28 @@
 # Public_Test_Bridge_Tools
-Tools for interacting with the bridge smart contracts on Ropsten Testnet
+Tools for interacting with the bridge smart contracts on Ropsten Testnet. The bridge for *testnet* is:
 
+**Address**: [0xbE39479b1fE065Fdd3510E8997738eb22DfA3357](https://ropsten.etherscan.io/address/0xbE39479b1fE065Fdd3510E8997738eb22DfA3357)
+
+Bridges for other networks are available in the [docs folder](./docs/bridges.md)
 ## Test Tokens:
-All of these tokens have the `faucet()` function and are available on the bridges.
+| Token Name | Token Address | Details |
+|:----------:|:-------------:|:-------:|
+|    tDai    | [0xBe3304136265290BDdBc0930CB6F26c3428929e2](https://ropsten.etherscan.io/token/0xBe3304136265290BDdBc0930CB6F26c3428929e2)              | [x](./docs/tokens.md#tdai)        |
+|    tBTC    | [0x7778F85d0Ceb51950cD9AE24086af723069865fC](https://ropsten.etherscan.io/token/0x7778F85d0Ceb51950cD9AE24086af723069865fC)              | [x](./docs/tokens.md#tbtc)        |
+|    tUSDC   | [0x2c6984bff4f8a3e13f071112085773D78B28F1F2](https://ropsten.etherscan.io/token/0x2c6984bff4f8a3e13f071112085773D78B28F1F2)              | [x](./docs/tokens.md#tusdc)        |
+|    tEURO   | [0x0f4c414fe20C998023A14207FA6E1176D4D4F4fb](https://ropsten.etherscan.io/token/0xbE39479b1fE065Fdd3510E8997738eb22DfA3357)              | [x](./docs/tokens.md#teuro)        |
+|    tVOTE   | [0xBab9201f25642e9917C3CDFb0d491A5ea13Df8A0](https://ropsten.etherscan.io/token/0xBab9201f25642e9917C3CDFb0d491A5ea13Df8A0)              | [x](./docs/tokens.md#tvote)        |
 
-tDAI Test [tDAI] (Ropsten):
-* Address: `0xBe3304136265290BDdBc0930CB6F26c3428929e2`
-* Vega ID: `0x6d9d35f657589e40ddfb448b7ad4a7463b66efb307527fedd2aa7df1bbd5ea61`
-* Etherscan: https://ropsten.etherscan.io/token/0xBe3304136265290BDdBc0930CB6F26c3428929e2
-
-tBTC Test [tBTC] (Ropsten):
-* Address: `0x7778F85d0Ceb51950cD9AE24086af723069865fC`
-* Vega ID: `0x5cfa87844724df6069b94e4c8a6f03af21907d7bc251593d08e4251043ee9f7c`
-* Etherscan: https://ropsten.etherscan.io/token/0x7778F85d0Ceb51950cD9AE24086af723069865fC
-
-tUSDC Test [tUSDC] (Ropsten):
-* Address: `0x2c6984bff4f8a3e13f071112085773D78B28F1F2`
-* Vega ID: `0x993ed98f4f770d91a796faab1738551193ba45c62341d20597df70fea6704ede`
-* Etherscan: https://ropsten.etherscan.io/token/0x2c6984bff4f8a3e13f071112085773D78B28F1F2
-
-tEURO Test [tEURO] (Ropsten):
-* Address: `0x0f4c414fe20C998023A14207FA6E1176D4D4F4fb`
-* Vega ID: `0x460be4264be2d8e3d7a85696ec66d5c5a86e19617f7dc4ddfe127e30b3bfd620`
-* Etherscan: https://ropsten.etherscan.io/token/0x0f4c414fe20C998023A14207FA6E1176D4D4F4fb
-
-tVOTE Test [tVOTE] (Ropsten):
-* Address: `0xBab9201f25642e9917C3CDFb0d491A5ea13Df8A0`
-* Vega ID: `0xf11862be7fc37c47372439f982a8f09912c4f995434120ff43ff51d9c34ef71a`
-* Etherscan: https://ropsten.etherscan.io/token/0xBab9201f25642e9917C3CDFb0d491A5ea13Df8A0
+All of these tokens have the `faucet()` function and are already supported on testnet.
 
 **NOTE**: It's highly suggested for you to install the MetaMask plugin for [Chrome](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en) or [Firefox](https://addons.mozilla.org/en-GB/firefox/addon/ether-metamask/). Just install the plugin and follow the instructions on-screen to create your wallet. Once installed, click on the Network at the top of the plugin screen and select "**Ropsten Test Network**" (see image below)
 
-<p align="center"><img width="238" alt="Select Ropsten Test Network screen" src="https://user-images.githubusercontent.com/66724202/88389898-4fcc9580-cdaf-11ea-9b1f-7315ca45d63f.png" class="center"></p>
 
-## Test Bridges
+# Console
+Faucets for all of the tokens above are available from within Vega Console. After logging in to an appropriate [Vega Wallet](https://github.com/vegaprotocol/go-wallet), open up the Account drawer, go to 'Manage' under the appropriate asset, and follow the instructions there
 
-### Develop
-ERC20 Bridge Develop (Ropsten):
-* Address: `0xf6C9d3e937fb2dA4995272C1aC3f3D466B7c23fC`
-* Etherscan: https://ropsten.etherscan.io/address/0xf6C9d3e937fb2dA4995272C1aC3f3D466B7c23fC
-
-ETH Bridge Develop (Ropsten):
-* Address:
-* Etherscan: 
-
-Multisig Control Develop (Ropsten):
-* Address: `0x7b9083b496ccb6C303F79A5249d91A3696556e33`
-* Etherscan: https://ropsten.etherscan.io/address/0x7b9083b496ccb6C303F79A5249d91A3696556e33
-
-### Staging
-ERC20 Bridge Staging (Ropsten):
-* Address: `0x220091406A379cebfD0590fe234e23Efb6d0CBb2`
-* Etherscan: https://ropsten.etherscan.io/address/0x220091406a379cebfd0590fe234e23efb6d0cbb2
-* Tx: https://ropsten.etherscan.io/tx/0x9419f953ff3ec0e903e9cb0d9f1ac646285b2dbe1c7877183e2bb28cd4c86ea0
-
-ETH Bridge Staging (Ropsten):
-* Address:
-* Etherscan: 
-* Tx:
-
-Multisig Control Staging (Ropsten):
-* Address: `0x58Cd8046CAe8016a60563ad2a12c642b49C02555`
-* Etherscan: https://ropsten.etherscan.io/address/0x58cd8046cae8016a60563ad2a12c642b49c02555
-* Tx: https://ropsten.etherscan.io/tx/0x43fcae3c57eb930d3adb44622a43e5183121b70fe26d3f346854d821129d389b
-
-### Test
-ERC20 Bridge Test (Ropsten):
-* Address: `0xbE39479b1fE065Fdd3510E8997738eb22DfA3357`
-* Etherscan: https://ropsten.etherscan.io/address/0xbe39479b1fe065fdd3510e8997738eb22dfa3357
-* Tx: https://ropsten.etherscan.io/tx/0x32eaa7177a5c171161b2896d0752a90663d6c125def9bae5a2bef5c9649da613
-
-ETH Bridge Test (Ropsten):
-* Address:
-* Etherscan: 
-* Tx:
-
-Multisig Control Test (Ropsten):
-* Address: `0x0a8899387EdA7F5e20E587766FF1BD0552206Ff1`
-* Etherscan: https://ropsten.etherscan.io/address/0x0a8899387eda7f5e20e587766ff1bd0552206ff1
-* Tx: https://ropsten.etherscan.io/tx/0xabc87f816f0941ea3f33bc13ba67911d444aacc7182052ba1da820ac7a5ab8db
-
-
-## Ropsten Ether Faucet
-In order to run smart contract functions on Ethereum, you must have Ethers to pay gas. On the Ropsten testnet there are a number of Ether faucets to get Ether to test with.
-To get test Ether, you've got a few options.
-
-### Easy mode
-- https://faucet.dimensions.network/
-- https://faucet.ropsten.be/
-
-### Hard more
-
-**NOTE**: Make sure that the quotes are all correct, the copy/paste might give you some wrong quote that will make the command fail.
-
-Run the following command line: 
-```bash
-curl -s -H "Content-Type: application/json" -d '{"toWhom":"YOUR_ETHEREUM_ADDRESS_GOES_HERE"}' -X POST https://ropsten.faucet.b9lab.com/tap
-```
-
-The system should respond with:
-```json
-{
-  "txHash" : "TX_HASH"
-}
-```
-
-### Harder mode
-If you want to go "**hardcore decentralized mode**", there exists an IPFS-deployed faucet: https://blog.b9lab.com/when-we-first-built-our-faucet-we-deployed-it-on-the-morden-testnet-70bfbf4e317e
+# Interacting with the contracts
+Sometimes, you don't want the Vega Console to do everything for you. Here's how to request tokens fromm the contracts directly. To follow the instructions below, you'll need to have some Ropsten Ether to cover the gas costs. [Instructions available here]](./dopcs/ropsten_eth.md).
 
 ## Token Faucet:
 **NOTE: These instructions will work for any of the above-listed test tokens**
