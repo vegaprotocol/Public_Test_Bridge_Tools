@@ -19,12 +19,12 @@ tUSDC Test [tUSDC] (Ropsten):
 * Vega ID: `0x993ed98f4f770d91a796faab1738551193ba45c62341d20597df70fea6704ede`
 * Etherscan: https://ropsten.etherscan.io/token/0x2c6984bff4f8a3e13f071112085773D78B28F1F2
 
-tEURO Test [tEURO] (Ropsten):
+tVOTE Test [tEURO] (Ropsten):
 * Address: `0xBab9201f25642e9917C3CDFb0d491A5ea13Df8A0`
 * Vega ID: `0x460be4264be2d8e3d7a85696ec66d5c5a86e19617f7dc4ddfe127e30b3bfd620`
 * Etherscan: https://ropsten.etherscan.io/token/0xBab9201f25642e9917C3CDFb0d491A5ea13Df8A0
 
-tVOTE Test [tVOTE] (Ropsten):
+tEURO Test [tVOTE] (Ropsten):
 * Address: `0x0f4c414fe20C998023A14207FA6E1176D4D4F4fb`
 * Vega ID: `0xf11862be7fc37c47372439f982a8f09912c4f995434120ff43ff51d9c34ef71a`
 * Etherscan: https://ropsten.etherscan.io/token/0x0f4c414fe20C998023A14207FA6E1176D4D4F4fb
