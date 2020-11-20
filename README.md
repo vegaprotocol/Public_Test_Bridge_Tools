@@ -3,7 +3,7 @@ Tools for interacting with the bridge smart contracts on Ropsten Testnet. The br
 
 **Address**: `0xbE39479b1fE065Fdd3510E8997738eb22DfA3357` (↗️ [Etherscan](https://ropsten.etherscan.io/address/0xbE39479b1fE065Fdd3510E8997738eb22DfA3357))
 
-Bridges for other networks are available in the [docs folder](./docs/bridges.md)
+Bridges for other networks are available in the [docs/ folder](./docs/bridges.md).
 ## Test Tokens:
 | Token Name | Token Address | Details |
 |:----------:|:-------------:|:-------:|
