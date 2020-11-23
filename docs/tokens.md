@@ -21,7 +21,7 @@ The Vega public testnet has the following token contracts allowed from genesis. 
 
 ## tEURO
 * Address: `0x0f4c414fe20C998023A14207FA6E1176D4D4F4fb`
-* Etherscan: [0x0f4c414fe20C998023A14207FA6E1176D4D4F4fb](0xbE39479b1fE065Fdd3510E8997738eb22DfA3357)
+* Etherscan: [0x0f4c414fe20C998023A14207FA6E1176D4D4F4fb](https://ropsten.etherscan.io/token/0x0f4c414fe20C998023A14207FA6E1176D4D4F4fb)
 * Vega ID: `0x460be4264be2d8e3d7a85696ec66d5c5a86e19617f7dc4ddfe127e30b3bfd620`
 * ABI: [ABI](../token/)
 
