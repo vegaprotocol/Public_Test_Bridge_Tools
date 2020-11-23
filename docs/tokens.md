@@ -1,5 +1,5 @@
 # Vega Testnet Tokens
-The Vega public testnet testnet has the following token contracts allowed from genesis. They are all ERC20 tokens, deployed to the [Ropsten Ethereum testnet](https://ropsten.etherscan.io), and can be obtained for free via the faucet ([see instructions here](../README.md)).
+The Vega public testnet has the following token contracts allowed from genesis. They are all ERC20 tokens, deployed to the [Ropsten Ethereum testnet](https://ropsten.etherscan.io), and can be obtained for free via the faucet ([see instructions here](../README.md)).
 
 ## tDAI
 * Address: `0xBe3304136265290BDdBc0930CB6F26c3428929e2`
