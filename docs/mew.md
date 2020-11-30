@@ -28,7 +28,7 @@ The system should respond with:
 If you want to go "**hardcore decentralized mode**", there exists an IPFS-deployed faucet: https://blog.b9lab.com/when-we-first-built-our-faucet-we-deployed-it-on-the-morden-testnet-70bfbf4e317e
 
 # Step 2: Token Faucet
-**NOTE: These instructions will work for any of the above-listed test tokens**
+**NOTE: These instructions will work for any of the [test tokens](./README.md#test-tokens)**
 
 To deposit test tokens into Vega via the [ERC20 bridge](./README.md), you must first have the tokens.
 
@@ -36,12 +36,12 @@ Luckily, there's a faucet for that!
 
 **If you want to follow a quick how-to to add a test token to your wallet:**
 
-1. Go to: https://www.myetherwallet.com/ (**make sure is the .com, any other is a scam/phishing website that would corrupt your wallet and steal everything!!!**)
+1. Go to: https://www.myetherwallet.com/ (**make sure this is the .com, any other is a scam/phishing website that would corrupt your wallet and steal everything!!!**)
 2. Click on "Access my Wallet"
 3. Select "MEW CX" and allow the access to your wallet
 4. Click on "Contract" -> "Interact with Contract"
 5. In the new page, copy the desired [Test Token address](./tokens.md).
-6. In the ABI/JSON interface, copy and paste the content of the JSON file available here https://raw.githubusercontent.com/vegaprotocol/Public_Test_Bridge_Tools/blob/master/token/token_abi.json
+6. In the ABI/JSON interface, copy and paste the content of the JSON file available here https://raw.githubusercontent.com/vegaprotocol/Public_Test_Bridge_Tools/master/token/token_abi.json
 7. Click "Continue"
 8. Click "Select an Item" and in the dropdown list select "Faucet"
 
@@ -68,7 +68,7 @@ First of all you need to obtain tokens from the test token faucet using the inst
 3. Select "MEW CX" and allow the access to your wallet
 4. Click on "Contract" -> "Interact with Contract"
 5. In the new page, under "Contract Address" copy the [Test Token address](./tokens.md)
-6. In the ABI/JSON interface, copy and paste the content of the JSON file available here https://raw.githubusercontent.com/Public_Test_Bridge_Tools/blob/master/token/token_abi.json
+6. In the ABI/JSON interface, copy and paste the content of the JSON file available here https://raw.githubusercontent.com/vegaprotocol/Public_Test_Bridge_Tools/master/token/token_abi.json
 7. Click "Continue"
 8. Click "Select an Item" and in the dropdown list select "Approve"
 
@@ -91,7 +91,7 @@ First of all you need to obtain tokens from the test token faucet using the inst
 4. Select "MEW CX" and allow the access to your wallet
 5. Click on "Contract" -> "Interact with Contract"
 6. In the new page, under "Contract Address" copy the [Vega ERC20 BRIDGE (Ropsten) address](./bridges.md)
-7. In the ABI/JSON interface, copy and paste the content of the JSON file available here https://raw.githubusercontent.com/Public_Test_Bridge_Tools/blob/master/bridge/Vega_Bridge_ERC20_abi.json
+7. In the ABI/JSON interface, copy and paste the content of the JSON file available here https://raw.githubusercontent.com/vegaprotocol/Public_Test_Bridge_Tools/master/bridge/Vega_Bridge_ERC20_abi.json
 8. Click "Continue"
 9. Click "Select an Item" and in the dropdown list select "deposit_asset"
 
