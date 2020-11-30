@@ -3,7 +3,7 @@ Tools for interacting with the bridge smart contracts on Ropsten Testnet. The br
 
 **Address**: `0xbE39479b1fE065Fdd3510E8997738eb22DfA3357` (↗️ [Etherscan](https://ropsten.etherscan.io/address/0xbE39479b1fE065Fdd3510E8997738eb22DfA3357))
 
-Bridges for other networks are available in the [docs/ folder](./docs/bridges.md).
+Bridges for other networks are available in [docs/bridges.md](./docs/bridges.md).
 ## Test Tokens:
 | Token Name | Token Address | Details |
 |:----------:|:-------------:|:-------:|
@@ -20,5 +20,7 @@ All of these tokens have the `faucet()` function and are already supported on te
 
 # How to get them
 To get these tokens in testnet, you have two choices:
-- Faucets for all of the tokens above are available from within Vega Console. After logging in to your [Vega Wallet](https://github.com/vegaprotocol/go-wallet), open up the Account drawer, go to 'Manage' under the appropriate asset, and follow the instructions there.
+- Faucets for all of the tokens above are available from within Vega Console. After connecting to your Vega wallet, while in the same menu, go to 'Manage' under the appropriate asset, and follow the instructions there.
 - [Do-It-Yourself with MyEtherWallet](./docs/mew.md).
+
+You'll need to set up your [Vega Wallet](https://github.com/vegaprotocol/go-wallet) before you can sign any transactions, and get testnet assets. 
