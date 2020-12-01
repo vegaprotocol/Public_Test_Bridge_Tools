@@ -2,7 +2,17 @@
 The following Vega bridges are deployed on Ropsten, for use in the three inital Vega networks. For most people, Testnet is the only network you'll need bridge addresses for.  
 
 ## Testnet
+ERC20 Bridge Testnet (Ropsten):
+* Address: `0xab5e0428d127E40faDac33Ee796333DB7f5a5b8A`
+* Etherscan: https://ropsten.etherscan.io/address/0xab5e0428d127E40faDac33Ee796333DB7f5a5b8A
 
+ERC20 Asset Pool Testnet (Ropsten):
+* Address: `0x662778fE80DeCd5b25B521928Dcb6139d5989F1E`
+* Etherscan: https://ropsten.etherscan.io/address/0x662778fE80DeCd5b25B521928Dcb6139d5989F1E
+
+Multisig Control Testnet (Ropsten):
+* Address: `0x588942E56E6dC8a9E45a8a430946E81aC8f1a8ee`
+* Etherscan: https://ropsten.etherscan.io/address/0x588942E56E6dC8a9E45a8a430946E81aC8f1a8ee
 
 ## Staging
 ERC20 Bridge Testnet (Ropsten):
