@@ -5,6 +5,17 @@ The following Vega bridges are deployed on Ropsten, for use in the three inital 
 
 
 ## Staging
+ERC20 Bridge Testnet (Ropsten):
+* Address: `0x53b57E6752325a5B2Fe793523Eda3E2005Bd3c24`
+* Etherscan: https://ropsten.etherscan.io/address/0x53b57E6752325a5B2Fe793523Eda3E2005Bd3c24
+
+ERC20 Asset Pool Testnet (Ropsten):
+* Address: `0xb5107Aa4E169AF03c618212b2E8805c58eACf4FB`
+* Etherscan: https://ropsten.etherscan.io/address/0xb5107Aa4E169AF03c618212b2E8805c58eACf4FB
+
+Multisig Control Testnet (Ropsten):
+* Address: `0xd85C042e1B2E1AA2a41F7db0CEDA5b576b885a78`
+* Etherscan: https://ropsten.etherscan.io/address/0xd85C042e1B2E1AA2a41F7db0CEDA5b576b885a78
 
 ## Develop
 ERC20 Bridge Testnet (Ropsten):
