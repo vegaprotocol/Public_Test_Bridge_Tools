@@ -25,4 +25,4 @@ To get these tokens in testnet, you have two choices:
 - Faucets for all of the tokens above are available from within Vega Console. After connecting to your Vega wallet, while in the same menu, go to 'Manage' under the appropriate asset, and follow the instructions there.
 - [Do-It-Yourself with MyEtherWallet](./docs/mew.md).
 
-You'll need to set up your [Vega Wallet](https://github.com/vegaprotocol/go-wallet) before you can sign any transactions, and get testnet assets. 
+You'll need to set up your [Vega Wallet](https://github.com/vegaprotocol/go-wallet) before you can sign any transactions, and get testnet assets. If you need Ropsten Ether to pay transaction fees, [use a Ropsten faucet](https://github.com/vegaprotocol/Public_Test_Bridge_Tools/blob/master/docs/mew.md#easy).
