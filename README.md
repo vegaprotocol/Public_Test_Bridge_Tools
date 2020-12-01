@@ -4,7 +4,7 @@ Tools for interacting with the bridge smart contracts on Ropsten Testnet. The br
 **Address**: `0xab5e0428d127E40faDac33Ee796333DB7f5a5b8A` (↗️ [Etherscan](https://ropsten.etherscan.io/address/0xab5e0428d127E40faDac33Ee796333DB7f5a5b8A))
 
 Bridges for other networks are available in [docs/bridges.md](./docs/bridges.md).
-## Test Tokens:
+## Testnet Tokens
 | Token Name | Token Address | Details |
 |:----------:|:-------------:|:-------:|
 |    tDAI    | `0x4F3b8eD46cbe42A29A4e5d875BbD9C2ff2286A06`              | [🔍](./docs/tokens.md#tdai)        |
