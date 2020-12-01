@@ -1,19 +1,21 @@
 # Vega Bridge
 Tools for interacting with the bridge smart contracts on Ropsten Testnet. The bridge for *testnet* is:
 
-**Address**: `0xbE39479b1fE065Fdd3510E8997738eb22DfA3357` (↗️ [Etherscan](https://ropsten.etherscan.io/address/0xbE39479b1fE065Fdd3510E8997738eb22DfA3357))
+**Address**: `0xab5e0428d127E40faDac33Ee796333DB7f5a5b8A` (↗️ [Etherscan](https://ropsten.etherscan.io/address/0xab5e0428d127E40faDac33Ee796333DB7f5a5b8A))
 
 Bridges for other networks are available in [docs/bridges.md](./docs/bridges.md).
 ## Test Tokens:
 | Token Name | Token Address | Details |
 |:----------:|:-------------:|:-------:|
-|    tDAI    | `0xBe3304136265290BDdBc0930CB6F26c3428929e2`              | [🔍](./docs/tokens.md#tdai)        |
-|    tBTC    | `0x7778F85d0Ceb51950cD9AE24086af723069865fC`              | [🔍](./docs/tokens.md#tbtc)        |
-|    tUSDC   | `0x2c6984bff4f8a3e13f071112085773D78B28F1F2`              | [🔍](./docs/tokens.md#tusdc)        |
-|    tEURO   | `0x0f4c414fe20C998023A14207FA6E1176D4D4F4fb`              | [🔍](./docs/tokens.md#teuro)        |
-|    tVOTE   | `0xBab9201f25642e9917C3CDFb0d491A5ea13Df8A0`              | [🔍](./docs/tokens.md#tvote)        |
+|    tDAI    | `0x4F3b8eD46cbe42A29A4e5d875BbD9C2ff2286A06`              | [🔍](./docs/tokens.md#tdai)        |
+|    tBTC    | `0xb1fa56975cc65eC0317a861Ff0Aaa6e4471c7392`              | [🔍](./docs/tokens.md#tbtc)        |
+|    tUSDC   | `0x801b239286d19A315a2f8faBc4Af32A848D777b8`              | [🔍](./docs/tokens.md#tusdc)        |
+|    tEURO   | `0xC22957Ca10C0890CCaFAadBf7676BB89799DF5A5`              | [🔍](./docs/tokens.md#teuro)        |
+|    tVOTE   | `0xcb7feB7c7cb9560664889a7ee8370d2f38741eb2`              | [🔍](./docs/tokens.md#tvote)        |
 
-All of these tokens have the `faucet()` function and are already supported on testnet.
+* All of these tokens have the `faucet()` function and are already supported on testnet.
+* Tokens for other Vega networks are available in [docs/tokens.md](./docs/tokens.md).
+
 
 **NOTE**: It's highly suggested for you to install the MetaMask plugin for [Chrome](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en) or [Firefox](https://addons.mozilla.org/en-GB/firefox/addon/ether-metamask/). Just install the plugin and follow the instructions on-screen to create your wallet. Once installed, click on the Network at the top of the plugin screen and select "**Ropsten Test Network**".
 
