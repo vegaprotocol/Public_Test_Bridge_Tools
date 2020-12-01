@@ -1,9 +1,9 @@
-# token
+# Token
 ## All events
 [Approval](#approval-event), [OwnershipTransferred](#ownershiptransferred-event), [Transfer](#transfer-event)
 
 ## All functions
-[Constructor](#constructor-constructor), [allowance](#allowance-function), [approve](#approve-function), [balanceOf](#balanceof-function), [decimals](#decimals-function), [decreaseAllowance](#decreaseallowance-function), [increaseAllowance](#increaseallowance-function), [isOwner](#isowner-function), [kill](#kill-function), [name](#name-function), [owner](#owner-function), [renounceOwnership](#renounceownership-function), [symbol](#symbol-function), [totalSupply](#totalsupply-function), [transfer](#transfer-function), [transferFrom](#transferfrom-function), [transferOwnership](#transferownership-function), [faucet](#faucet-function), [issue](#issue-function)
+[Constructor](#constructor-constructor), [allowance](#allowance-function), [approve](#approve-function), [balanceOf](#balanceof-function), [decimals](#decimals-function), [decreaseAllowance](#decreaseallowance-function), [increaseAllowance](#increaseallowance-function), [isOwner](#isowner-function), [kill](#kill-function), [name](#name-function), [owner](#owner-function), [renounceOwnership](#renounceownership-function), [symbol](#symbol-function), [totalSupply](#totalsupply-function), [transfer](#transfer-function), [transferFrom](#transferfrom-function), [transferOwnership](#transferownership-function), [faucet](#faucet-function), [issue](#issue-function), [admin_deposit_single](#admin_deposit_single-function), [admin_deposit_bulk](#admin_deposit_bulk-function)
 
 
 ## Events
@@ -189,6 +189,26 @@
 |----|----|
 |account|[address](https://solidity.readthedocs.io/en/v0.6.10/types.html#address)|
 |value|[uint256](https://solidity.readthedocs.io/en/v0.6.10/types.html#integers)|
+
+
+### <a id="admin_deposit_single-function">admin_deposit_single</a>
+🙅 Non-payable
+
+|Input name|Type|
+|----|----|
+|amount|[uint256](https://solidity.readthedocs.io/en/v0.6.10/types.html#integers)|
+|bridge_address|[address](https://solidity.readthedocs.io/en/v0.6.10/types.html#address)|
+|vega_public_key|[bytes32](https://solidity.readthedocs.io/en/v0.6.10/types.html#fixed-size-byte-arrays)|
+
+
+### <a id="admin_deposit_bulk-function">admin_deposit_bulk</a>
+🙅 Non-payable
+
+|Input name|Type|
+|----|----|
+|amount|[uint256](https://solidity.readthedocs.io/en/v0.6.10/types.html#integers)|
+|bridge_address|[address](https://solidity.readthedocs.io/en/v0.6.10/types.html#address)|
+|vega_public_keys|[bytes32[]](undefined)|
 
 
 
