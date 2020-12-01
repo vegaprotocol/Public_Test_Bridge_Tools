@@ -3,6 +3,35 @@ The Vega public testnet has the following token contracts allowed from genesis. 
 
 ## Testnet
 ## Staging
+### tDAI
+* Address: `0x03Fd6C836546d566C2dc7F37F1Ac0D3e8aE5212a`
+* Etherscan: [0x03Fd6C836546d566C2dc7F37F1Ac0D3e8aE5212a](https://ropsten.etherscan.io/token/0x03Fd6C836546d566C2dc7F37F1Ac0D3e8aE5212a)
+* Vega ID: `0x6d9d35f657589e40ddfb448b7ad4a7463b66efb307527fedd2aa7df1bbd5ea61`
+* ABI: [ABI](../token/)
+
+### tBTC
+* Address: `0xcF05c85d4a4201ab33C45119b8210E0D3f434a2d`
+* Etherscan: [0xcF05c85d4a4201ab33C45119b8210E0D3f434a2d](https://ropsten.etherscan.io/token/0xcF05c85d4a4201ab33C45119b8210E0D3f434a2d)
+* Vega ID: `0x5cfa87844724df6069b94e4c8a6f03af21907d7bc251593d08e4251043ee9f7c`
+* ABI: [ABI](../token/)
+
+### tUSDC
+* Address: `0x801b239286d19A315a2f8faBc4Af32A848D777b8`
+* Etherscan: [0x801b239286d19A315a2f8faBc4Af32A848D777b8](https://ropsten.etherscan.io/token/0x801b239286d19A315a2f8faBc4Af32A848D777b8)
+* Vega ID: `0x993ed98f4f770d91a796faab1738551193ba45c62341d20597df70fea6704ede`
+* ABI: [ABI](../token/)
+
+### tEURO
+* Address: `0xD94b772d3d124494a57532f6A5Fd5c750EFe58bB`
+* Etherscan: [0xD94b772d3d124494a57532f6A5Fd5c750EFe58bB](https://ropsten.etherscan.io/token/0xD94b772d3d124494a57532f6A5Fd5c750EFe58bB)
+* Vega ID: `0x460be4264be2d8e3d7a85696ec66d5c5a86e19617f7dc4ddfe127e30b3bfd620`
+* ABI: [ABI](../token/)
+
+### tVOTE
+* Address: `0xefA743Df1522A156Db58bC17349D74C60E3686c1`
+* Etherscan: [0xefA743Df1522A156Db58bC17349D74C60E3686c1](https://ropsten.etherscan.io/token/0xefA743Df1522A156Db58bC17349D74C60E3686c1)
+* Vega ID: `0xf11862be7fc37c47372439f982a8f09912c4f995434120ff43ff51d9c34ef71a`
+* ABI: [ABI](../token/)
 
 ## Develop
 ### tDAI
