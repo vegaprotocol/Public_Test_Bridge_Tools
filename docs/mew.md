@@ -9,6 +9,8 @@ Enter your address in to one of the following:
 - https://faucet.dimensions.network/
 - https://faucet.ropsten.be/
 
+You can track the progress of your transaction on [Etherscan](https://etherscan.io/). 
+
 ## Medium 
 **NOTE**: Make sure that the quotes are all correct, the copy/paste might give you some wrong quote that will make the command fail.
 
@@ -81,7 +83,7 @@ First of all you need to obtain tokens from the test token faucet using the inst
 
 <p align="center"><img width="238" alt="Here select CONFIRM" src="https://user-images.githubusercontent.com/66724202/88394400-4ba47600-cdb7-11ea-8e66-e2df46e87c61.png"></p>
 
-12. Wait for the transaction to be completed.
+12. Wait for the transaction to be completed. You can track the progress of your transaction on [Etherscan](https://etherscan.io/). 
 
 **Run `deposit_asset` function on ERC20 Bridge - Deposit assets on Vega PubKey**
 
@@ -109,7 +111,7 @@ First of all you need to obtain tokens from the test token faucet using the inst
 
 <p align="center"><img width="238" alt="Here select CONFIRM" src="https://user-images.githubusercontent.com/66724202/88396301-43016f00-cdba-11ea-8711-d5d56cab9668.png"></p>
 
-16. Wait for the transaction to be completed
-17. Your tokens have been deposited into Vega and will be credited to the provided Vega Public Key
+16. Wait for the transaction to be completed. Track the progress of your transaction on [Etherscan](https://etherscan.io/). 
+17. Your tokens have been deposited into Vega and will be credited to the provided Vega Public Key.
 
 [👈 Back to index](../README.md)
