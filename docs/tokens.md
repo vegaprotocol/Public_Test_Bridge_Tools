@@ -2,36 +2,28 @@
 The Vega public testnet has the following token contracts allowed from genesis. They are all ERC20 tokens, deployed to the [Ropsten Ethereum testnet](https://ropsten.etherscan.io), and can be obtained for free via the faucet in Vega Console or manually ([see instructions here](../README.md#how-to-get-them)).
 
 ## Testnet
-### tDAI (test)
-* Address: `0x4F3b8eD46cbe42A29A4e5d875BbD9C2ff2286A06`
-* Etherscan: [0x4F3b8eD46cbe42A29A4e5d875BbD9C2ff2286A06](https://ropsten.etherscan.io/token/0x4F3b8eD46cbe42A29A4e5d875BbD9C2ff2286A06)
-* Vega ID: `0x6d9d35f657589e40ddfb448b7ad4a7463b66efb307527fedd2aa7df1bbd5ea61`
-* ABI: [ABI](../token/)
+
+These tokens all use the same [ABI](../token/).
 
 ### tBTC (test)
-* Address: `0xb1fa56975cc65eC0317a861Ff0Aaa6e4471c7392`
-* Etherscan: [0xb1fa56975cc65eC0317a861Ff0Aaa6e4471c7392](https://ropsten.etherscan.io/token/0xb1fa56975cc65eC0317a861Ff0Aaa6e4471c7392)
+* Address: [0xb1fa56975cc65eC0317a861Ff0Aaa6e4471c7392](https://ropsten.etherscan.io/token/0xb1fa56975cc65eC0317a861Ff0Aaa6e4471c7392)
 * Vega ID: `0x5cfa87844724df6069b94e4c8a6f03af21907d7bc251593d08e4251043ee9f7c`
-* ABI: [ABI](../token/)
 
-### tUSDC (test)
-* Address: `0x801b239286d19A315a2f8faBc4Af32A848D777b8`
-* Etherscan: [0x801b239286d19A315a2f8faBc4Af32A848D777b8](https://ropsten.etherscan.io/token/0x801b239286d19A315a2f8faBc4Af32A848D777b8)
-* Vega ID: `0x993ed98f4f770d91a796faab1738551193ba45c62341d20597df70fea6704ede`
-* ABI: [ABI](../token/)
+### tDAI (test)
+* Address: [0x4F3b8eD46cbe42A29A4e5d875BbD9C2ff2286A06](https://ropsten.etherscan.io/token/0x4F3b8eD46cbe42A29A4e5d875BbD9C2ff2286A06)
+* Vega ID: `0x6d9d35f657589e40ddfb448b7ad4a7463b66efb307527fedd2aa7df1bbd5ea61`
 
 ### tEURO (test)
-* Address: `0xC22957Ca10C0890CCaFAadBf7676BB89799DF5A5`
-* Etherscan: [0xC22957Ca10C0890CCaFAadBf7676BB89799DF5A5](https://ropsten.etherscan.io/token/0xC22957Ca10C0890CCaFAadBf7676BB89799DF5A5)
-* Vega ID: `0x460be4264be2d8e3d7a85696ec66d5c5a86e19617f7dc4ddfe127e30b3bfd620`
-* ABI: [ABI](../token/)
+* Address: [0xC22957Ca10C0890CCaFAadBf7676BB89799DF5A5](https://ropsten.etherscan.io/token/0xC22957Ca10C0890CCaFAadBf7676BB89799DF5A5)
+* Vega ID: `0x8b52d4a3a4b0ffe733cddbc2b67be273816cfeb6ca4c8b339bac03ffba08e4e4`
+
+### tUSDC (test)
+* Address: [0x801b239286d19A315a2f8faBc4Af32A848D777b8](https://ropsten.etherscan.io/token/0x801b239286d19A315a2f8faBc4Af32A848D777b8)
+* Vega ID: `0x993ed98f4f770d91a796faab1738551193ba45c62341d20597df70fea6704ede`
 
 ### tVOTE (test)
-* Address: `0xcb7feB7c7cb9560664889a7ee8370d2f38741eb2`
-* Etherscan: [0xcb7feB7c7cb9560664889a7ee8370d2f38741eb2](https://ropsten.etherscan.io/token/0xcb7feB7c7cb9560664889a7ee8370d2f38741eb2)
+* Address: [0xcb7feB7c7cb9560664889a7ee8370d2f38741eb2](https://ropsten.etherscan.io/token/0xcb7feB7c7cb9560664889a7ee8370d2f38741eb2)
 * Vega ID: `0xf11862be7fc37c47372439f982a8f09912c4f995434120ff43ff51d9c34ef71a`
-* ABI: [ABI](../token/)
-
 
 ## Staging
 
