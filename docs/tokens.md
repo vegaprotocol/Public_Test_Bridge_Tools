@@ -18,7 +18,7 @@ These tokens all use the same [ABI](../token/).
 * Vega ID: `0x8b52d4a3a4b0ffe733cddbc2b67be273816cfeb6ca4c8b339bac03ffba08e4e4`
 
 ### tUSDC (test)
-* Address: [0x801b239286d19A315a2f8faBc4Af32A848D777b8](https://ropsten.etherscan.io/token/0x801b239286d19A315a2f8faBc4Af32A848D777b8)
+* Address: [0xDAb71C9486Ee26Ef5DC931CC852ed6192C828Eb2](https://ropsten.etherscan.io/token/0xDAb71C9486Ee26Ef5DC931CC852ed6192C828Eb2)
 * Vega ID: `0x993ed98f4f770d91a796faab1738551193ba45c62341d20597df70fea6704ede`
 
 ### tVOTE (test)
