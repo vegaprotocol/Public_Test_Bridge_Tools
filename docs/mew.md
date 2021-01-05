@@ -43,7 +43,7 @@ Luckily, there's a faucet for that!
 3. Select "MEW CX" and allow the access to your wallet
 4. Click on "Contract" -> "Interact with Contract"
 5. In the new page, copy the desired [Test Token address](./tokens.md).
-6. In the ABI/JSON interface, copy and paste the content of the JSON file available here https://raw.githubusercontent.com/vegaprotocol/Public_Test_Bridge_Tools/master/token/Base_Faucet_Token_ABI.json
+6. In the ABI/JSON interface, copy and paste the content of the JSON file available here https://raw.githubusercontent.com/vegaprotocol/Public_Test_Bridge_Tools/blob/master/token/Base_Faucet_Token_ABI.json
 7. Click "Continue"
 8. Click "Select an Item" and in the dropdown list select "Faucet"
 
@@ -70,7 +70,7 @@ First of all you need to obtain tokens from the test token faucet using the inst
 3. Select "MEW CX" and allow the access to your wallet
 4. Click on "Contract" -> "Interact with Contract"
 5. In the new page, under "Contract Address" copy the [Test Token address](./tokens.md)
-6. In the ABI/JSON interface, copy and paste the content of the JSON file available here https://raw.githubusercontent.com/vegaprotocol/Public_Test_Bridge_Tools/master/token/Base_Faucet_Token_ABI.json
+6. In the ABI/JSON interface, copy and paste the content of the JSON file available here https://raw.githubusercontent.com/vegaprotocol/Public_Test_Bridge_Tools/blob/master/token/Base_Faucet_Token_ABI.json
 7. Click "Continue"
 8. Click "Select an Item" and in the dropdown list select "Approve"
 
