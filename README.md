@@ -9,7 +9,7 @@ Bridges for other networks are available in [docs/bridges.md](./docs/bridges.md)
 |:----------:|:-------------:|:-------:|
 |    tDAI    | `0x4F3b8eD46cbe42A29A4e5d875BbD9C2ff2286A06`              | [🔍](./docs/tokens.md#tdai)        |
 |    tBTC    | `0xb1fa56975cc65eC0317a861Ff0Aaa6e4471c7392`              | [🔍](./docs/tokens.md#tbtc)        |
-|    tUSDC   | `0x801b239286d19A315a2f8faBc4Af32A848D777b8`              | [🔍](./docs/tokens.md#tusdc)        |
+|    tUSDC   | `0xDAb71C9486Ee26Ef5DC931CC852ed6192C828Eb2`              | [🔍](./docs/tokens.md#tusdc)        |
 |    tEURO   | `0xC22957Ca10C0890CCaFAadBf7676BB89799DF5A5`              | [🔍](./docs/tokens.md#teuro)        |
 |    tVOTE   | `0xcb7feB7c7cb9560664889a7ee8370d2f38741eb2`              | [🔍](./docs/tokens.md#tvote)        |
 
