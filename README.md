@@ -1,17 +1,17 @@
 # Vega Bridge
 Tools for interacting with the bridge smart contracts on Ropsten Testnet. The bridge for *testnet* is:
 
-**Address**: `0xab5e0428d127E40faDac33Ee796333DB7f5a5b8A` (↗️ [Etherscan](https://ropsten.etherscan.io/address/0xab5e0428d127E40faDac33Ee796333DB7f5a5b8A))
+**Address**: `0x47613C3F18BD1172efF3bC2AdC2210C2c2624883` (↗️ [Etherscan](https://ropsten.etherscan.io/address/0x47613C3F18BD1172efF3bC2AdC2210C2c2624883))
 
 Bridges for other networks are available in [docs/bridges.md](./docs/bridges.md).
 ## Testnet Tokens
 | Token Name | Token Address | Details |
 |:----------:|:-------------:|:-------:|
-|    tDAI    | `0x4F3b8eD46cbe42A29A4e5d875BbD9C2ff2286A06`              | [🔍](./docs/tokens.md#tdai)        |
-|    tBTC    | `0xb1fa56975cc65eC0317a861Ff0Aaa6e4471c7392`              | [🔍](./docs/tokens.md#tbtc)        |
-|    tUSDC   | `0xDAb71C9486Ee26Ef5DC931CC852ed6192C828Eb2`              | [🔍](./docs/tokens.md#tusdc)        |
-|    tEURO   | `0xC22957Ca10C0890CCaFAadBf7676BB89799DF5A5`              | [🔍](./docs/tokens.md#teuro)        |
-|    tVOTE   | `0xcb7feB7c7cb9560664889a7ee8370d2f38741eb2`              | [🔍](./docs/tokens.md#tvote)        |
+|    tDAI    | `0x65e92e892Fbb489ea263c8E52bb11D1c9b67C54d`              | [🔍](./docs/tokens.md#tdai)        |
+|    tBTC    | `0xc6A622C2bbCA2645f941eDEEE6f2611971b6870c`              | [🔍](./docs/tokens.md#tbtc)        |
+|    tUSDC   | `0xbc2ab6Cdeeff966F8E8fE136460A49e46a72D4b9`              | [🔍](./docs/tokens.md#tusdc)        |
+|    tEURO   | `0x8218996E51a807Caa94B815a8e144fd5229f07A8`              | [🔍](./docs/tokens.md#teuro)        |
+|    tVOTE   | `0x7e503d51E18bF3d5825682A54B363799D4a8e344`              | [🔍](./docs/tokens.md#tvote)        |
 
 * All of these tokens have the `faucet()` function and are already supported on testnet.
 * Tokens for other Vega networks are available in [docs/tokens.md](./docs/tokens.md).
