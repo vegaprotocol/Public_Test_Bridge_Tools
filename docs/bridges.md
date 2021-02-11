@@ -23,12 +23,12 @@ Multisig Control (Ropsten Testnet):
 
 ## Develop
 ERC20 Bridge (Ropsten Testnet):
-* Address: [`0x7EC8e6C3b49C201059B1b4437a6Cf30DB6a99F9C`](https://ropsten.etherscan.io/address/0x7EC8e6C3b49C201059B1b4437a6Cf30DB6a99F9C)
+* Address: [`0xCcB517899f714BD1B2f32931fF429aDEdDd02A93`](https://ropsten.etherscan.io/address/0xCcB517899f714BD1B2f32931fF429aDEdDd02A93)
 
 ERC20 Asset Pool (Ropsten Testnet):
-* Address: [`0xA8aa758E6E032fa17A0690BACF4a4873A65A535B`](https://ropsten.etherscan.io/address/0xA8aa758E6E032fa17A0690BACF4a4873A65A535B)
+* Address: [`0x11ba0df26252B87c4beEEDE74271994C428452d1`](https://ropsten.etherscan.io/address/0x11ba0df26252B87c4beEEDE74271994C428452d1)
 
 Multisig Control (Ropsten Testnet):
-* Address: [`0x66678665025e50Ac09980A4BeE8F926e643C3B84`](https://ropsten.etherscan.io/address/0x66678665025e50Ac09980A4BeE8F926e643C3B84)
+* Address: [`0x10fD0ea76C247403E33D1166CC6274262593057F`](https://ropsten.etherscan.io/address/0x10fD0ea76C247403E33D1166CC6274262593057F)
 
 [👈 Back to index](../README.md)
