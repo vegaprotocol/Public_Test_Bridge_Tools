@@ -6,23 +6,23 @@ The Vega public testnet has the following token contracts allowed from genesis. 
 These tokens all use the same [ABI](../token/).
 
 ### tBTC (test)
-* Address: [0xb1fa56975cc65eC0317a861Ff0Aaa6e4471c7392](https://ropsten.etherscan.io/token/0xb1fa56975cc65eC0317a861Ff0Aaa6e4471c7392)
+* Address: [0xc6A622C2bbCA2645f941eDEEE6f2611971b6870c](https://ropsten.etherscan.io/token/0xc6A622C2bbCA2645f941eDEEE6f2611971b6870c)
 * Vega ID: `0x5cfa87844724df6069b94e4c8a6f03af21907d7bc251593d08e4251043ee9f7c`
 
 ### tDAI (test)
-* Address: [0x4F3b8eD46cbe42A29A4e5d875BbD9C2ff2286A06](https://ropsten.etherscan.io/token/0x4F3b8eD46cbe42A29A4e5d875BbD9C2ff2286A06)
+* Address: [0x65e92e892Fbb489ea263c8E52bb11D1c9b67C54d](https://ropsten.etherscan.io/token/0x65e92e892Fbb489ea263c8E52bb11D1c9b67C54d)
 * Vega ID: `0x6d9d35f657589e40ddfb448b7ad4a7463b66efb307527fedd2aa7df1bbd5ea61`
 
 ### tEURO (test)
-* Address: [0xC22957Ca10C0890CCaFAadBf7676BB89799DF5A5](https://ropsten.etherscan.io/token/0xC22957Ca10C0890CCaFAadBf7676BB89799DF5A5)
+* Address: [0x8218996E51a807Caa94B815a8e144fd5229f07A8](https://ropsten.etherscan.io/token/0x8218996E51a807Caa94B815a8e144fd5229f07A8)
 * Vega ID: `0x8b52d4a3a4b0ffe733cddbc2b67be273816cfeb6ca4c8b339bac03ffba08e4e4`
 
 ### tUSDC (test)
-* Address: [0xDAb71C9486Ee26Ef5DC931CC852ed6192C828Eb2](https://ropsten.etherscan.io/token/0xDAb71C9486Ee26Ef5DC931CC852ed6192C828Eb2)
+* Address: [0xbc2ab6Cdeeff966F8E8fE136460A49e46a72D4b9](https://ropsten.etherscan.io/token/0xbc2ab6Cdeeff966F8E8fE136460A49e46a72D4b9)
 * Vega ID: `0x993ed98f4f770d91a796faab1738551193ba45c62341d20597df70fea6704ede`
 
 ### tVOTE (test)
-* Address: [0xcb7feB7c7cb9560664889a7ee8370d2f38741eb2](https://ropsten.etherscan.io/token/0xcb7feB7c7cb9560664889a7ee8370d2f38741eb2)
+* Address: [0x7e503d51E18bF3d5825682A54B363799D4a8e344](https://ropsten.etherscan.io/token/0x7e503d51E18bF3d5825682A54B363799D4a8e344)
 * Vega ID: `0xf11862be7fc37c47372439f982a8f09912c4f995434120ff43ff51d9c34ef71a`
 
 ## Staging
@@ -30,23 +30,23 @@ These tokens all use the same [ABI](../token/).
 These tokens all use the same [ABI](../token/).
 
 ### tBTC (stag)
-* Address: [0xcF05c85d4a4201ab33C45119b8210E0D3f434a2d](https://ropsten.etherscan.io/token/0xcF05c85d4a4201ab33C45119b8210E0D3f434a2d)
+* Address: [0xe4D35AB0480Ec23b4456041B0304c1985ea99827](https://ropsten.etherscan.io/token/0xe4D35AB0480Ec23b4456041B0304c1985ea99827)
 * Vega ID: `0x5cfa87844724df6069b94e4c8a6f03af21907d7bc251593d08e4251043ee9f7c`
 
 ### tDAI (stag)
-* Address: [0x03Fd6C836546d566C2dc7F37F1Ac0D3e8aE5212a](https://ropsten.etherscan.io/token/0x03Fd6C836546d566C2dc7F37F1Ac0D3e8aE5212a)
+* Address: [0xA7aB532b4B8Ee79D3e8f5897458056137752Fbf7](https://ropsten.etherscan.io/token/0xA7aB532b4B8Ee79D3e8f5897458056137752Fbf7)
 * Vega ID: `0x6d9d35f657589e40ddfb448b7ad4a7463b66efb307527fedd2aa7df1bbd5ea61`
 
 ### tEURO (stag)
-* Address: [0xD94b772d3d124494a57532f6A5Fd5c750EFe58bB](https://ropsten.etherscan.io/token/0xD94b772d3d124494a57532f6A5Fd5c750EFe58bB)
+* Address: [0xA937E029301f2A5cA03E23d8ddC13CeF316b0c95](https://ropsten.etherscan.io/token/0xA937E029301f2A5cA03E23d8ddC13CeF316b0c95)
 * Vega ID: `0x8b52d4a3a4b0ffe733cddbc2b67be273816cfeb6ca4c8b339bac03ffba08e4e4`
 
 ### tUSDC (stag)
-* Address: [0x801b239286d19A315a2f8faBc4Af32A848D777b8](https://ropsten.etherscan.io/token/0x801b239286d19A315a2f8faBc4Af32A848D777b8)
+* Address: [0x13D72AF2ff7053bC388710Bed3Fd1670E35fC78a](https://ropsten.etherscan.io/token/0x13D72AF2ff7053bC388710Bed3Fd1670E35fC78a)
 * Vega ID: `0x993ed98f4f770d91a796faab1738551193ba45c62341d20597df70fea6704ede`
 
 ### tVOTE (stag)
-* Address: [0xefA743Df1522A156Db58bC17349D74C60E3686c1](https://ropsten.etherscan.io/token/0xefA743Df1522A156Db58bC17349D74C60E3686c1)
+* Address: [0x0c2b46b7C0BCc7a1d696078506Fb4Ff9C0aF123d](https://ropsten.etherscan.io/token/0x0c2b46b7C0BCc7a1d696078506Fb4Ff9C0aF123d)
 * Vega ID: `0xf11862be7fc37c47372439f982a8f09912c4f995434120ff43ff51d9c34ef71a`
 
 ## Develop
@@ -54,23 +54,23 @@ These tokens all use the same [ABI](../token/).
 These tokens all use the same [ABI](../token/).
 
 ### tBTC (dev)
-* Address: [0x04039b39eA8e11f750e818738bC7dd61eEcea6bA](https://ropsten.etherscan.io/token/0x04039b39eA8e11f750e818738bC7dd61eEcea6bA)
+* Address: [0x28012F4b69935B4D02D47AF7516E564E6C099A83](https://ropsten.etherscan.io/token/0x28012F4b69935B4D02D47AF7516E564E6C099A83)
 * Vega ID: `0x5cfa87844724df6069b94e4c8a6f03af21907d7bc251593d08e4251043ee9f7c`
 
 ### tDAI (dev)
-* Address: [0xBEaF29DCE23B39FAfa7BA59a1b3Feb8687f96782](https://ropsten.etherscan.io/token/0xBEaF29DCE23B39FAfa7BA59a1b3Feb8687f96782)
+* Address: [0x6026b80B83347bb2E3AFEfea5520BfB8D6a4b517](https://ropsten.etherscan.io/token/0x6026b80B83347bb2E3AFEfea5520BfB8D6a4b517)
 * Vega ID: `0x6d9d35f657589e40ddfb448b7ad4a7463b66efb307527fedd2aa7df1bbd5ea61`
 
 ### tEURO (dev)
-* Address: [0xc951317D3B389642e60D0Cc71E053bBA0BB5a4bb](https://ropsten.etherscan.io/token/0xc951317D3B389642e60D0Cc71E053bBA0BB5a4bb)
+* Address: [0x8d9aeD22A81BA73a34da75d2d6438e0C3D41CC8F](https://ropsten.etherscan.io/token/0x8d9aeD22A81BA73a34da75d2d6438e0C3D41CC8F)
 * Vega ID: `0x8b52d4a3a4b0ffe733cddbc2b67be273816cfeb6ca4c8b339bac03ffba08e4e4`
 
 ### tUSDC (dev)
-* Address: [0x8b718b47E3B92edC631CD4fDF99A64c9BF746Cf2](https://ropsten.etherscan.io/token/0x8b718b47E3B92edC631CD4fDF99A64c9BF746Cf2)
+* Address: [0xE76c5c79077969f9Eb65376Daa7FE3d2D176F1c3](https://ropsten.etherscan.io/token/0xE76c5c79077969f9Eb65376Daa7FE3d2D176F1c3)
 * Vega ID: `0x993ed98f4f770d91a796faab1738551193ba45c62341d20597df70fea6704ede`
 
 ### tVOTE (dev)
-* Address: [0x78df24a8C4139c450c7335064EFFb2A1C5b57B48](https://ropsten.etherscan.io/token/0xBab9201f25642e9917C3CDFb0d491A5ea13Df8A0)
+* Address: [0xab1eE8c6292598c46b83B213FEa440bF969612b2](https://ropsten.etherscan.io/token/0xab1eE8c6292598c46b83B213FEa440bF969612b2)
 * Vega ID: `0xf11862be7fc37c47372439f982a8f09912c4f995434120ff43ff51d9c34ef71a`
 
 [👈 Back to index](../README.md)
