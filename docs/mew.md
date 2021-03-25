@@ -93,7 +93,7 @@ First of all you need to obtain tokens from the test token faucet using the inst
 4. Select "MEW CX" and allow the access to your wallet
 5. Click on "Contract" -> "Interact with Contract"
 6. In the new page, under "Contract Address" copy the [Vega ERC20 BRIDGE (Ropsten) address](./bridges.md)
-7. In the ABI/JSON interface, copy and paste the content of the JSON file available here https://raw.githubusercontent.com/vegaprotocol/Public_Test_Bridge_Tools/master/bridge/Vega_Bridge_ERC20_abi.json
+7. In the ABI/JSON interface, copy and paste the content of the JSON file available here https://raw.githubusercontent.com/vegaprotocol/Public_Test_Bridge_Tools/master/bridge/IERC20_Bridge_Logic_ABI.json
 8. Click "Continue"
 9. Click "Select an Item" and in the dropdown list select "deposit_asset"
 
